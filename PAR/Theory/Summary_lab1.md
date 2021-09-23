@@ -1,6 +1,6 @@
 # Introduction to PDDL files
 
-We need two diferent files.
+**We need to define first of all two diferent files.**
 
 
 1. **domain.pddl** : In this file we define the domain of our Agent.  First of all we define the domain, next requiremenets and predicates and finally we need to define all actions that our agent can do.  
