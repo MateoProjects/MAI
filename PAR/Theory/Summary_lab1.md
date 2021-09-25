@@ -8,7 +8,7 @@
 * **Exemple**
 
 ```pddl
-define (domain blocksworld)
+(define (domain blocksworld)
     (:requirements :strips :equality)
     (:predicates
         (clear ?x)
