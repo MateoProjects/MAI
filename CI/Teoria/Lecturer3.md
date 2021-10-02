@@ -5,17 +5,22 @@
 * The data points are normalized within a hypercube [0, 1]
 * A *density measure* at data point *xi* is defined as: 
 
+<p align="center">
 <img src="img/density_measure.JPG" />
-
+</p>
+ 
 **Note:** ra (radius) positive number defines a neighborhood and || . || denotes the euclidean distance
 
 * Once density measure is calculated at each data point, the one with the highest value is selected as the first cluster center. 
 
 To find the next cluster center , the density measure for each data point is revised subtracting the influence of the first cluster.
 
-![](img\density_measure2.JPG)
-
-## CART: Classification and Regression Trees
+<p align="center">
+   
+<img src="img/density_measure2.JPG" />
+</p>
+ 
+## CART: Classification and Regression Trees (No entra a l'examen)
 
 CART generates a tree partitioning of the input space, which relieves the “curse of dimensionality” problem (num. of rules increasing exponentially with num. of inputs)
 
@@ -32,7 +37,7 @@ The error measure that quantifies the performance of a node t in separating data
 
 where ***{xi,yi}***  is a data point, ***dt(xi,θ)*** is a local model for node ***t*** (with modifiable parameter θ) and **E(*t*)** is the mean-square error of fitting the local model to the data set in the node.
 
-The strategy for growing a regression tree is to split nodes (or data set) iteratively and thus maximize the decrease in ![](img\regressiontree2.JPG), i.e. the overall error measure (or cost) of the tree. 
+The strategy for growing a regression tree is to split nodes (or data set) iteratively and thus maximize the decrease in ![](img/regressiontree2.JPG), i.e. the overall error measure (or cost) of the tree. 
 
 **Tree Pruning**
 
