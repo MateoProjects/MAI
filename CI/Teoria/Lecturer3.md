@@ -32,7 +32,7 @@ The error measure that quantifies the performance of a node t in separating data
 
 where ***{xi,yi}***  is a data point, ***dt(xi,θ)*** is a local model for node ***t*** (with modifiable parameter θ) and **E(*t*)** is the mean-square error of fitting the local model to the data set in the node.
 
-The strategy for growing a regression tree is to split nodes (or data set) iteratively and thus maximize the decrease in ![](C:\Users\fraud\Desktop\UPC\MAI\MAI\CI\Teoria\img\regressiontree2.JPG), i.e. the overall error measure (or cost) of the tree. 
+The strategy for growing a regression tree is to split nodes (or data set) iteratively and thus maximize the decrease in ![](img\regressiontree2.JPG), i.e. the overall error measure (or cost) of the tree. 
 
 **Tree Pruning**
 
