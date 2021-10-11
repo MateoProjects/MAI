@@ -1,7 +1,13 @@
-(define (problem wumpus-p)
-    (:domain wumpus-a)
+(define (problem wumpus-prob)
+    (:domain wumpus1)
     (:objects
-        sq-1-1 sq-1-2 sq-1-3 sq-2-1 sq-2-2 sq-2-3 agent wumpus arrow gold pit
+        sq-1-1 - room
+        sq-1-2 - room
+        sq-1-3 - room
+        sq-2-1 - room
+        sq-2-2 - room
+        sq-2-3 - room
+        agent - who
     )
 
     (:init
@@ -20,20 +26,19 @@
         (adj sq-1-3 sq-2-3)
         (adj sq-2-3 sq-1-3)
         (pit sq-1-2)
-
-        (at gold sq-1-3)
-        (at agent sq-1-1)
-        (have agent arrow)
-        (at wumpus sq-2-3)
-        ;todo: put the initial state's facts and numeric values here
+        (not (havegold agent))
+        (wump sq-2-3)
+        (agnt sq-1-1)
+        (havearow agent)
+        (gld sq-1-3)
+        ; a p g
+        ; x x w
     )
 
     (:goal
-        (and (have agent gold) (at agent sq-1-1)
-            ;todo: put the goal condition here
+        (and (agnt sq-2-2) (havegold agent)
         )
     )
 
-    ;un-comment the following line if metric is needed
-    ;(:metric minimize (???))
+  
 )

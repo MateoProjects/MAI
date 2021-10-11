@@ -1,39 +1,54 @@
-(define (domain wumpus-a)
-    (:requirements :strips :negative-preconditions) ;; maybe not necessary
+(define (domain wumpus1)
+    (:requirements :strips :negative-preconditions :typing) 
+    (:types
+        room
+        who
+    )
 
     (:predicates
-        (adj ?square-1 ?square-2)
-        (pit ?square)
-        (at ?what ?square)
-        (have ?who ?what)
-        (dead ?who)
+    (adj ?rom-1 ?rom-2)
+    (pit ?room)
+    (havearow ?who)
+    (havegold ?who)
+    (dead ?who)
+    (wump ?room)
+    (agnt ?rom)
+    (gld ?rom)
     )
 
     (:action move
-        :parameters (?who ?from ?to)
-        :precondition (and (adj ?from ?to)
-            (not (pit ?to))
-            (at ?who ?from))
-        :effect (and (not (at ?who ?from))
-            (at ?who ?to))
+        :parameters (?from - room ?to - room)
+        :precondition   (and (adj ?from ?to)
+                        (agnt ?from)
+                        (not (wump ?to))
+                        (not (pit ?to))
+                        )
+
+        :effect (and (not (agnt ?from))
+                    (agnt ?to)
+        )
     )
 
     (:action take
-        :parameters (?who ?what ?where)
-        :precondition (and (at ?who ?where)
-            (at ?what ?where))
-        :effect (and (have ?who ?what)
-            (not (at ?what ?where)))
+        :parameters (?who - who ?where - room)
+        :precondition (and  (gld ?where)
+                            (not (havegold ?who))
+                            (agnt ?where)
+                      )
+        :effect (and (havegold ?who )
+            (not (gld ?where)))
     )
 
     (:action shoot
-        :parameters (?who ?where ?arrow ?victim ?where-victim)
-        :precondition (and (have ?who ?arrow)
-            (at ?who ?where)
-            (at ?victim ?where-victim)
-            (adj ?where ?where-victim))
-        :effect (and (dead ?victim)
-            (not (at ?victim ?where-victim))
-            (not (have ?who ?arrow)))
-    )
+        :parameters (?who - who ?from - room ?to - room )
+        :precondition (and  (havearow ?who)
+                            (wump ?to)
+                            (agnt ?from)
+                            (adj ?to ?from)
+        )
+                    
+        :effect (and (not (wump ?to)) (not (havearow ?who)))
+        
+        )
+    
 )
