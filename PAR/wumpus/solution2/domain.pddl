@@ -24,6 +24,7 @@
     (what ?f1 ?c1 ?who)
     (die ?who)
     (haveGold ?who)
+    (squareadj ?f1 ?c1 ?f2 ?c2)
 
 )
 
@@ -35,6 +36,7 @@
                         (not (what ?f2 ?c2 ?pit))
                         (gtcol ?c1 ?c2)
                         (what ?f1 ?c1 ?agent)
+                        (squareadj ?f1 ?c1 ?f2 ?c2)
                         (not (what ?f2 ?c2 ?wumpus))
 
     )
@@ -47,6 +49,7 @@
                         (not (what ?f2 ?c2 ?pit))
                         (gtcol ?c2 ?c1)
                         (what ?f1 ?c1 ?agent)
+                        (squareadj ?f1 ?c1 ?f2 ?c2)
                         (not (what ?f2 ?c2 ?wumpus)))
 
     
@@ -59,7 +62,8 @@
                         (not (what ?f2 ?c2 ?pit))
                         (gtrow ?f1 ?f2)
                         (what ?f1 ?c1 ?agent)
-                        (not (what ?f2 ?c2 ?wumpus))
+            (squareadj ?f1 ?c1 ?f2 ?c2)
+            (not (what ?f2 ?c2 ?wumpus))
 
     )
     :effect (and (not (what ?f1 ?c1 ?agent)) (what ?f2 ?c2 ?agent))
@@ -71,7 +75,8 @@
                         (not (what ?f2 ?c2 ?pit))
                         (gtrow ?f2 ?f1)
                         (what ?f1 ?c1 ?agent)
-                        (not (what ?f2 ?c2 ?wumpus))
+            (squareadj ?f1 ?c1 ?f2 ?c2)
+            (not (what ?f2 ?c2 ?wumpus))
 
     )
     :effect (and (not (what ?f1 ?c1 ?agent)) (what ?f2 ?c2 ?agent))
@@ -82,7 +87,8 @@
     :precondition (and  (havearow ?agent)
                         (not (die ?wumpus))
                         (what ?f2 ?c2 ?wumpus)
-                        (what ?f1 ?c1 ?agent)
+            (squareadj ?f1 ?c1 ?f2 ?c2)
+            (what ?f1 ?c1 ?agent)
     )
     :effect (and    (not(havearow ?agent))
                     (die ?wumpus)
