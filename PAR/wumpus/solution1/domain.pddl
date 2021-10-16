@@ -10,7 +10,6 @@
     (pit ?room)
     (havearow ?who)
     (havegold ?who)
-    (dead ?who)
     (wump ?room)
     (agnt ?rom)
     (gld ?rom)

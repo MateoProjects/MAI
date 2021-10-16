@@ -1,5 +1,6 @@
 # Wumpus game
 
+
 ## Introduction and explanation of two solutions
 <br>
 
@@ -79,3 +80,49 @@ The differences between both solutions are in actions that agent can do it. In t
   * **Preconditions**: object gold is in f1-c1 and agent is in f1-c1
   * **Effect**: agent take gold. Gold now is not in f1-c1
  
+ ---
+
+
+ ## Possible States
+
+First of all we have a lot states before chose position of pit, wumpus, gold and agent.
+
+For every cell we can have this states:
+
+* wumpus, pit, agent-with arrow, nothing, gold. So we have:
+
+
+
+$$
+\frac{6!}{(6-4)!} = 360 \text{ possible configurations}
+$$
+
+
+ ### **Solution 1**
+  * have-arrow : 2 states (True or False)
+  * have-gold : 2 states (True or False)
+  * wumpus: 2 states (True or False)
+  * agent : 5 states
+  * gold : 2 states (True or False)
+$$
+have-arrow \  · \ have-gold \ · \ wumpus \ · \ agent \ ·  \ gold = 2·2·2·5·2 = 80 \ \text{possible states} 
+$$
+ 
+<br>
+
+ ### **Solution 2**
+ * have-arrow: 2 states
+ * predicate what : 
+   * 1 state (pit) 
+   * 3 states cell wumpus (nothing, wumpus, agent)
+   * 2 states on 4 cells (nothing , agent) 
+   * 2 states cell gold (true or false)   
+ * die: 2 states (True or False)
+ * haveGold : 2 states (True or False)
+
+$$
+  have-arrow · pit · wumpus · (agent-nothing) · gold · die · have-gold = 2 · 1 · 3 · (4·2) · 2 · 2 · 2 = 384  \text{ possible states}
+$$
+
+So once we calculated all posible states that have the two solutions i think it's better use the first option becuase there has less states than the solution two. The reasons are if we have less states the planner can execute the problem more faster.
+
