@@ -121,7 +121,7 @@ $$
  * haveGold : 2 states (True or False)
 
 $$
-  have-arrow · pit · wumpus · (agent-nothing) · gold · die · have-gold = 2 · 1 · 3 · (4·2) · 2 · 2 · 2 = 384  \text{ possible states}
+have-arrow · pit · wumpus · (agent-nothing) · gold · die · have-gold = 2 · 1 · 3 · (4·2) · 2 · 2 · 2 = 384  \text{ possible states}
 $$
 
 So once we calculated all posible states that have the two solutions i think it's better use the first option becuase there has less states than the solution two. The reasons are if we have less states the planner can execute the problem more faster.
