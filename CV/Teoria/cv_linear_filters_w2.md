@@ -124,3 +124,15 @@ Median filter is edge preserving
 
 ## Linear filters with Gaussians
 
+2D Gaussian function
+$$
+h(u,v) = \frac{1}{2\pi\sigma^2}e^{-\frac{u^2 + v^2}{\sigma^2}}
+$$
+![](img/w2/gausian.JPG)
+
+![](img/w2/size_kernels.JPG)
+
+• Variance of Gaussian: determines extent of smoothing
+
+![](img/w2/gaussian2.JPG)
+
