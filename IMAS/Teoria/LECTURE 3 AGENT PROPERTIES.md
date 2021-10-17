@@ -161,3 +161,8 @@ It is almost impossible for an agent to have all those properties.
 * Reactiveness 
 * Reasoning and learning
 * Communication
+
+
+
+
+

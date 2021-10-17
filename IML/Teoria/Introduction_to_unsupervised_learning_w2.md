@@ -11,11 +11,18 @@ Differences between Supervised learning and Unsupervised learning
 1. **Summarization**: To obtain representations that describe an unlabeled dataset
 2. **Understanding**: To discover the key concepts inside data.
 
+These task are difficult because the discovery process is biased by context.
+
+Clusters can be represented as: 
+
+* Relational (hierarchies)
+* Unstructured (partitions)
+
 ## Examples of Unsupervised Learning
 
 * **Bioinformatics**: Extract or recognize patterns that share common characteristics.
-* **Medicine**: Analyze the different parts of the body
-* **Market research**: Obtain valuable information about customers and potential customers. 
+* **Medicine**: Analyze the different parts of the body.
+* **Market research**: Obtain valuable information about customers and potential customers. Data can be used before starting any new business or when expanding an existing one.
 * **Social network analysis**: The goal is to improve what social network can offer.
 
 ## Approaches
@@ -141,6 +148,6 @@ $$
 Using minimum similarity of pairs
 $$
 sim(c_i, c_j) = min \ sim(x,y) , x\in c_i, y\in c_j
-
+
 $$
 ![](img/w2/min_sim_pairs.JPG)
