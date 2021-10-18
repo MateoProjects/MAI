@@ -148,6 +148,9 @@ $$
 Using minimum similarity of pairs
 
 $$
+
 sim(c_i, c_j) = min \ sim(x,y) , x\in c_i, y\in c_j
+
 $$
+
 ![](img/w2/min_sim_pairs.JPG)
