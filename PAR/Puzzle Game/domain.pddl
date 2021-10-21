@@ -1,9 +1,9 @@
 ;Header and description
 
-(define (domain puzzlegame)
+(define (domain p1)
 
 ;remove requirements that are not needed
-(:requirements :strips :fluents :durative-actions :timed-initial-literals :typing :conditional-effects :negative-preconditions :duration-inequalities :equality)
+(:requirements :strips :fluents :typing :conditional-effects :negative-preconditions)
 
 (:types ;todo: enumerate types and their hierarchy here, e.g. car truck bus - vehicle
     board_coordinate_x
@@ -24,9 +24,8 @@
     (above_y     ?ya - board_coordinate_y
                  ?yb - board_coordinate_y)
 
-    (atCell ?xa-board_coordinate_x ?ya-board_coordinate_y ?val - value) ; check if white is in coord x
-    (whereWhite ?xa-board_coordinate_x ?ya-board_coordinate_y ?white - value) ; check if white is in coord
-    
+    (atCell ?xa - board_coordinate_x ?ya - board_coordinate_y ?val - value) ; check if white is in coord x
+    (whiteIn ?xa - board_coordinate_x ?ya - board_coordinate_y)
     )
 
 
@@ -41,15 +40,14 @@
         ?xb - board_coordinate_x
         ?yb - board_coordinate_y
         ?val - value
-        ?white - white
     )
     :precondition (and 
         (atCell ?xa ?ya ?val)
-        (whereWhite ?xb ?yb ?white)
+        (whiteIn ?xb ?yb)
         (above_x ?xa ?xb)
     
     )
-    :effect (and (whereWhite ?xa ?ya ?white)(not(whereWhite ?xb ?yb ?white)) (atCell ?xb ?yb ?val) (not(atCell ?xa ?ya ?val)))
+    :effect (and (whiteIn ?xa ?ya) (not (whiteIn ?xb ?yb)) (atCell ?xb ?yb ?val) (not (atCell ?xa ?ya ?val)))
 )
 ; fins aqui fet
 (:action move_right
@@ -63,11 +61,10 @@
     )
     :precondition (and 
         (atCell ?xa ?ya ?val)
-        (whereWhite ?xb ?yb ?white)
+        (whiteIn ?xb ?yb)
         (below_x ?xa ?xb)
     )
-        :effect (and (whereWhite ?xa ?ya ?white)(not(whereWhite ?xb ?yb ?white)) 
-        (atCell ?xb ?yb ?val) (not(atCell ?xa ?ya ?val)))
+    :effect (and (whiteIn ?xa ?ya) (not (whiteIn ?xb ?yb)) (atCell ?xb ?yb ?val) (not (atCell ?xa ?ya ?val)))
 
 )
 
@@ -82,11 +79,11 @@
     )
     :precondition (and 
         (atCell ?xa ?ya ?val)
-        (whereWhite ?xb ?yb ?white )
+        (whiteIn ?xb ?yb )
         (above_y ?ya ?yb)
     )
-    :effect (and (whereWhite ?xa ?ya ?white)(not(whereWhite ?xb ?yb ?white))
-     (atCell ?xb ?yb ?val) (not(atCell ?xa ?ya ?val)))
+    :effect (and (whiteIn ?xa ?ya) (not (whiteIn ?xb ?yb)) (atCell ?xb ?yb ?val) (not (atCell ?xa ?ya ?val)))
+
 )
 
 (:action move_down
@@ -100,10 +97,10 @@
     )
     :precondition (and 
         (atCell ?xa ?ya ?val)
-        (where ?xb ?yb ?white )
+        (whiteIn ?xb ?yb )
         (below_y ?ya ?yb)
     )
-    :effect (and (whereWhite ?xa ?ya ?white)(not(whereWhite ?xb ?yb ?white)) (atCell ?xb ?yb ?val) (not(atCell ?xa ?ya ?val)))
+    :effect (and (whiteIn ?xa ?ya) (not (whiteIn ?xb ?yb)) (atCell ?xb ?yb ?val) (not (atCell ?xa ?ya ?val)))
 )
 
 

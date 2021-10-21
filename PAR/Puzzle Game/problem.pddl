@@ -1,8 +1,24 @@
 (define (problem PuzzleGame) (:domain p1)
 (:objects 
-    X0 X1 X2 X3 - board_coordinate_x
-    Y0 Y1 Y2 Y3 - board_coordinate_y
-    one two three four five six seven eight nine ten eleven twuelve thirteen fourthten fiveteen - value
+    X0 - board_coordinate_x X1 - board_coordinate_x
+    X2 - board_coordinate_x X3 - board_coordinate_x
+    Y0 - board_coordinate_y Y1 - board_coordinate_y
+    Y2 - board_coordinate_y Y3 - board_coordinate_y
+    one - value
+    two - value  
+    three - value
+    four - value
+    five - value 
+    six - value
+    seven - value
+    eight - value
+    nine - value
+    ten - value
+    eleven - value
+    twuelve - value
+    thirteen - value
+    fourthten - value
+    fiveteen - value
 )
 
 (:init
@@ -33,8 +49,7 @@
         (atCell X0 Y3 thirteen)
         (atCell X1 Y3 fourthten)
         (atCell X3 Y3 fiveteen)
-        (whereWhite X2 Y3)
-        
+        (whiteIn X2 Y3)        
 )
 
     ;todo: put the initial state's facts and numeric values here
@@ -56,7 +71,7 @@
         (atCell X0 Y3 thirteen)
         (atCell X1 Y3 fourthten)
         (atCell X2 Y3 fiveteen)
-        (whereWhite X3 Y3)
+        (whiteIn X3 Y3)
     ;todo: put the goal condition here
 ))
 
