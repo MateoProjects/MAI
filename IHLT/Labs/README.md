@@ -1,19 +1,41 @@
 # IHLT marks obtained
 
-## Lab1
+## Lab1 : Framework
 
 * **Grade obtained:** 9 . Conclussions were missing
 
-## Lab2
+## Lab2 : Document Structure
 
 * **Grade obtained:** 10 .
 
-## Lab3
+## Lab3 : Morphology
 
 * **Grade obtained:** 9 . Lemmatizer doesn't work for adjectives and adverbs
 
-## Lab4
+## Lab4 : Part-of-speech
 
 * **Grade obtained:** 10 . 
 
+## Lab5 : Lexical Semantics
 
+* **Grade obtained:** x . 
+
+## Lab6 : Word Sense Disambiguation
+
+* **Grade obtained:** x . 
+
+## Lab7 : Words sequences
+
+* **Grade obtained:** x . 
+
+## Lab8 : STS Project
+
+* **Grade obtained:** x . 
+
+## Lab9 : Parsing
+
+* **Grade obtained:** x . 
+
+## Lab10 : Coreference
+
+* **Grade obtained:** x . 
