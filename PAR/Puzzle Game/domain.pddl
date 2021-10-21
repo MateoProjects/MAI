@@ -1,6 +1,6 @@
 ;Header and description
 
-(define (domain domain_name)
+(define (domain puzzlegame)
 
 ;remove requirements that are not needed
 (:requirements :strips :fluents :durative-actions :timed-initial-literals :typing :conditional-effects :negative-preconditions :duration-inequalities :equality)
@@ -9,7 +9,6 @@
     board_coordinate_x
     board_coordinate_y
     value
-    white
 )
 
 ; un-comment following line if constants are needed
@@ -26,8 +25,9 @@
                  ?yb - board_coordinate_y)
 
     (atCell ?xa-board_coordinate_x ?ya-board_coordinate_y ?val - value) ; check if white is in coord x
-
-)
+    (whereWhite ?xa-board_coordinate_x ?ya-board_coordinate_y ?white - value) ; check if white is in coord
+    
+    )
 
 
 (:functions ;todo: define numeric functions here
@@ -41,17 +41,17 @@
         ?xb - board_coordinate_x
         ?yb - board_coordinate_y
         ?val - value
-        ?white - value
+        ?white - white
     )
-    :precondition (
-        and (atCell ?xa ?ya ?val)
-            (atCell ?xb ?yb ?white)
+    :precondition (and 
+        (atCell ?xa ?ya ?val)
+        (whereWhite ?xb ?yb ?white)
         (above_x ?xa ?xb)
     
     )
-    :effect (and (atCell ?xa ?ya ?white) (atCell ?xb ?yb ?val) )
+    :effect (and (whereWhite ?xa ?ya ?white)(not(whereWhite ?xb ?yb ?white)) (atCell ?xb ?yb ?val) (not(atCell ?xa ?ya ?val)))
 )
-
+; fins aqui fet
 (:action move_right
     :parameters (
         ?xa - board_coordinate_x
@@ -61,8 +61,14 @@
         ?val - value
         ?white - value
     )
-    :precondition (and )
-    :effect (and (atCell ?xa ?ya ?white) (atCell ?xb ?yb ?val))
+    :precondition (and 
+        (atCell ?xa ?ya ?val)
+        (whereWhite ?xb ?yb ?white)
+        (below_x ?xa ?xb)
+    )
+        :effect (and (whereWhite ?xa ?ya ?white)(not(whereWhite ?xb ?yb ?white)) 
+        (atCell ?xb ?yb ?val) (not(atCell ?xa ?ya ?val)))
+
 )
 
 (:action move_up
@@ -74,8 +80,13 @@
         ?val - value
         ?white - value
     )
-    :precondition (and )
-    :effect (and (atCell ?xa ?ya ?white) (atCell ?xb ?yb ?val))
+    :precondition (and 
+        (atCell ?xa ?ya ?val)
+        (whereWhite ?xb ?yb ?white )
+        (above_y ?ya ?yb)
+    )
+    :effect (and (whereWhite ?xa ?ya ?white)(not(whereWhite ?xb ?yb ?white))
+     (atCell ?xb ?yb ?val) (not(atCell ?xa ?ya ?val)))
 )
 
 (:action move_down
@@ -87,8 +98,12 @@
         ?val - value
         ?white - value
     )
-    :precondition (and )
-    :effect (and (atCell ?xa ?ya ?white) (atCell ?xb ?yb ?val))
+    :precondition (and 
+        (atCell ?xa ?ya ?val)
+        (where ?xb ?yb ?white )
+        (below_y ?ya ?yb)
+    )
+    :effect (and (whereWhite ?xa ?ya ?white)(not(whereWhite ?xb ?yb ?white)) (atCell ?xb ?yb ?val) (not(atCell ?xa ?ya ?val)))
 )
 
 

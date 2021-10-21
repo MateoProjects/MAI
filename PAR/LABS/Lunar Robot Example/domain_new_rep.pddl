@@ -84,7 +84,7 @@
         )
 		:precondition(
             and
-            (robot_movement true)
+            (robot_movement)
             (robot_at_coordinatex ?robot ?first_coordinate_x)
             (ghost_at_coordinatex ?ghost ?first_coordinate_x)
             (robot_at_coordinatey ?robot ?first_coordinate_y)
@@ -92,7 +92,7 @@
         )
 		:effect(
             and
-            (in_the_same_place true)
+            (in_the_same_place)
         )
 	)
     ; the following actions are based on the robot movement through the space in the board 
