@@ -57,7 +57,6 @@
         ?xb - board_coordinate_x
         ?yb - board_coordinate_y
         ?val - value
-        ?white - value
     )
     :precondition (and 
         (atCell ?xa ?ya ?val)
@@ -75,7 +74,6 @@
         ?xb - board_coordinate_x
         ?yb - board_coordinate_y
         ?val - value
-        ?white - value
     )
     :precondition (and 
         (atCell ?xa ?ya ?val)
@@ -93,7 +91,6 @@
         ?xb - board_coordinate_x
         ?yb - board_coordinate_y
         ?val - value
-        ?white - value
     )
     :precondition (and 
         (atCell ?xa ?ya ?val)
