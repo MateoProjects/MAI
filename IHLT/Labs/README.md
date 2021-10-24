@@ -18,7 +18,7 @@
 
 ## Lab5 : Lexical Semantics
 
-* **Grade obtained:** x . 
+* **Grade obtained:** 10 . 
 
 ## Lab6 : Word Sense Disambiguation
 
