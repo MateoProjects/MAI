@@ -23,8 +23,12 @@
 
 * Euclidian distance
 
-  ![](img/w3/euclidean.png)
-
+  $$
+  L_2(\vec{x}, \vec{y}) = \sum_{i=1}^m (x_i - y_i)^2
+  $$
+  
+  
+  
 * Cosine Similarity
 
   ![](img/w3/cosine_similarity.png)
@@ -39,7 +43,7 @@
 
 **Example** 
 
-![](img/w3/k-means-algorithm.png)
+![](img/w3/exemple_kmeans.png)
 
 ### Objective
 
@@ -110,11 +114,10 @@ According to fuzzy Algebra every element of the universe can belong to any **fuz
   X = \{ x_1, x_2,... x_n\}
   $$
   
-
 * Main output: A c-partition o X wich is *c x n* matrix *U*.
 
-  * c is the number of clusters
-  * U is the univers
+  * *c is the number of clusters*
+  * *U is the universe*
 
 * Additional output
 
@@ -124,6 +127,29 @@ According to fuzzy Algebra every element of the universe can belong to any **fuz
     v_i \text{ is called "cluster center"}
     $$
     
+
+
+
+**Initial Choices**
+
+- Number of clusters , *1 < c < n* 
+- Maximum number of iterations (100), *T*
+- Weighting exponent (Fuzzines degree), m
+  - m = 1: crisp
+  - m = 2 : Typical
+
+* Termination measure
+
+  
+  $$
+  E_t = || V_t - V_{t-1} ||
+  $$
+
+* Termination threshold (0.01) 
+
+![](img/w3/cluster_cmeans.JPG)
+
+
 
 **Advantages**
 
@@ -167,3 +193,31 @@ Model that is compressed by diferent probability distribution.
 * Each cluster: a generative model (Gaussian or multinomial)
 * Parameters (e.g. mean/covariance are unknown) 
 
+**Expectation Maximitzation (EM) algorithm**
+
+Automatically discover all parameters for the K “sources"
+
+Used to compute maximum likelihood estimates (MLE) of parameters of an underlying distribution from given data set when the data is incomplete or has missing values
+
+**Aplications**
+
+* Filling in missing data in samples 
+* Discovering the value of latent variables
+* Estimating the parameters of HMMs
+* Estimating parameters of finite mixtures
+* Unsupervised learning of clusters
+* Semi-supervised classification and clustering
+
+The main idea is use probabilities instead of distances.
+
+The goal is finde the mos likely clisters given the data and determine the probabilitiy with wich and object belongs to a certain clusters.
+$$
+\text{Pr}(C \space |\space x) = \frac{\text{Pr}(x \space | \space C) \text{Pr}(C)}{\sum_c \text{Pr}(C) \text{Pr}(x \space | \space C)}
+$$
+Where ***Pr(C)*** is the probability that a randomly selected object belongs to cluster C , and Pr(x|C) is the probability of observing the object x given the cluster C.
+
+**Algorithm**
+
+1. Calculate cluster probability for each object (**Estimation step**). 
+2. Estimate distribution parameters based on the cluster probabilities (**Maximization step**)
+3. Procedure stops when log-likelihood saturates
