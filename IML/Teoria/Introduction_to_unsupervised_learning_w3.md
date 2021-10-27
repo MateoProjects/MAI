@@ -127,6 +127,8 @@ According to fuzzy Algebra every element of the universe can belong to any **fuz
     v_i \text{ is called "cluster center"}
     $$
     
+  
+* 
 
 
 
@@ -140,7 +142,7 @@ According to fuzzy Algebra every element of the universe can belong to any **fuz
 
 * Termination measure
 
-  
+
   $$
   E_t = || V_t - V_{t-1} ||
   $$
@@ -210,7 +212,7 @@ Used to compute maximum likelihood estimates (MLE) of parameters of an underlyin
 
 The main idea is use probabilities instead of distances.
 
-The goal is finde the mos likely clisters given the data and determine the probabilitiy with wich and object belongs to a certain clusters.
+The goal is find the mos likely clusters given the data and determine the probabilitiy with wich and object belongs to a certain clusters.
 $$
 \text{Pr}(C \space |\space x) = \frac{\text{Pr}(x \space | \space C) \text{Pr}(C)}{\sum_c \text{Pr}(C) \text{Pr}(x \space | \space C)}
 $$
@@ -219,5 +221,6 @@ Where ***Pr(C)*** is the probability that a randomly selected object belongs to 
 **Algorithm**
 
 1. Calculate cluster probability for each object (**Estimation step**). 
-2. Estimate distribution parameters based on the cluster probabilities (**Maximization step**)
-3. Procedure stops when log-likelihood saturates
+2. Estimate distribution parameters based on th
+3. e cluster probabilities (**Maximization step**)
+4. Procedure stops when log-likelihood saturates
