@@ -130,4 +130,4 @@ dmypy.json
 
 *.pdf
 
-.idea/*
+*.idea/*

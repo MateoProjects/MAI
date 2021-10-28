@@ -9,6 +9,10 @@
 * Configuration is legal if it does not intersect any obstacles and is valid
 * Configuration Space is the set of legal configurations
 
+It consists of free space, whick constains all possible configurations (states) of the agent space occupied by obstacles
+
+States are represented by circles and called nodes. The Lines represent the actions to move between two or more states.
+
 ### C-Space Transform
 
 **2D object :**
@@ -44,9 +48,14 @@ Configuration space for rigid-body objects in 2D world is:
 
 ![](img/w3/graph_decomposition.JPG)
 
+1) Divide free space F into simple connected ‘cells’, 
+2) Determine which cells are adjacent to which others and create an ‘adjacency graph’. 
+3) Determine which cells the start and goal configurations lie in and search for a path in the adjacency graph between these cells.
+4) Compute a path within each cell from the point of the boundary with previous cell to a boundary point meeting the next cell. 
+
 * Skeletonization of the environment/C-Space
-  * Visibility graphs
-  * Voronoi diagrams
+  * Visibility graphs: based on idea that the shortest path consists of obstacle-free straight line segments connecting all obstacle vertices and start and goal. Visibility graphs are complete. 
+  * Voronoi diagrams: A roadmap method based on retraction
   * Probabilistic roadmaps
 
 ## Planning via Cell Decomposition
