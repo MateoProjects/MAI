@@ -178,3 +178,21 @@ Ex: Three feature functions automatically generated from f1,a,b:
 
 ![](Img/w7/NP-chunking with CRFS2.png)
 
+### Exercise
+
+**Write the feature templates for the following descriptions. Provide examples of feature functions generated from them.**
+
+1. NERC
+   1. The previous tag is a, the current tag is b and the current word is capitalized
+   2. The current tag is a and the next word is w
+   3. A person name can be preceded by a title (mr., dr., ...) 
+
+
+
+**Solution**
+
+I have template one:
+$$
+f_{1,a,b}(x_{t_1}, x_t, O,t) = \begin{cases} 1 & \text{if} \end{cases}
+$$
+Note: to do
