@@ -22,7 +22,7 @@
 
 ## Lab6 : Word Sense Disambiguation
 
-* **Grade obtained:** x . 
+* **Grade obtained:** 10 . 
 
 ## Lab7 : Words sequences
 
