@@ -22,6 +22,7 @@
     )
 
 (:init
+        (same_x X0 X0) (same_y Y0 Y0) (same_x X1 X1) (same_y Y1 Y1) (same_x X2 X2) (same_y Y2 Y2) (same_x X3 X3) (same_y Y3 Y3)
         (below_x X0 X1)
         (below_x X1 X2)
         (below_x X2 X3)
@@ -36,7 +37,7 @@
         (above_y Y3 Y2)
         (atCell X0 Y0 fiveteen)
         (atCell X1 Y0 ten)
-       ; (atCell X2 Y0 three)
+        (whiteIn X2 Y0)
         (atCell X3 Y0 thirteen)
         (atCell X0 Y1 eleven)
         (atCell X1 Y1 four)
@@ -47,10 +48,9 @@
         (atCell X2 Y2 nine)
         (atCell X3 Y2 eight)
         (atCell X0 Y3 two)
-        (atCell X2 Y3 six)
         (atCell X1 Y3 fourteen)
-        (atCell X3 Y3 five)
-        (whiteIn X2 Y0)        
+        (atCell X2 Y3 six)
+        (atCell X3 Y3 five)    
 )
 
     ;todo: put the initial state's facts and numeric values here

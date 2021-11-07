@@ -23,7 +23,8 @@
                  ?yb - board_coordinate_y)
     (above_y     ?ya - board_coordinate_y
                  ?yb - board_coordinate_y)
-
+    (same_x ?xa - board_coordinate_x ?xb - board_coordinate_x)
+    (same_y ?ya - board_coordinate_y ?yb - board_coordinate_y)
     (atCell ?xa - board_coordinate_x ?ya - board_coordinate_y ?val - value) ; check if white is in coord x
     (whiteIn ?xa - board_coordinate_x ?ya - board_coordinate_y)
     )
@@ -45,6 +46,7 @@
         (atCell ?xa ?ya ?val)
         (whiteIn ?xb ?yb)
         (above_x ?xa ?xb)
+        (same_y ?ya ?yb)
     
     )
     :effect (and (whiteIn ?xa ?ya) (not (whiteIn ?xb ?yb)) (atCell ?xb ?yb ?val) (not (atCell ?xa ?ya ?val)))
@@ -62,6 +64,7 @@
         (atCell ?xa ?ya ?val)
         (whiteIn ?xb ?yb)
         (below_x ?xa ?xb)
+        (same_y ?ya ?yb)
     )
     :effect (and (whiteIn ?xa ?ya) (not (whiteIn ?xb ?yb)) (atCell ?xb ?yb ?val) (not (atCell ?xa ?ya ?val)))
 
@@ -79,6 +82,7 @@
         (atCell ?xa ?ya ?val)
         (whiteIn ?xb ?yb )
         (above_y ?ya ?yb)
+        (same_x ?xa ?xb)
     )
     :effect (and (whiteIn ?xa ?ya) (not (whiteIn ?xb ?yb)) (atCell ?xb ?yb ?val) (not (atCell ?xa ?ya ?val)))
 
@@ -96,6 +100,7 @@
         (atCell ?xa ?ya ?val)
         (whiteIn ?xb ?yb )
         (below_y ?ya ?yb)
+        (same_x ?xa ?xb)
     )
     :effect (and (whiteIn ?xa ?ya) (not (whiteIn ?xb ?yb)) (atCell ?xb ?yb ?val) (not (atCell ?xa ?ya ?val)))
 )
