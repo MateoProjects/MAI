@@ -136,3 +136,78 @@ Covariance of two attributes
 - Only square matrices have eigenvectors
 - Not all square matrices have eigenvectors
 
+**Example**
+
+Let M be an *n·n* matrix
+
+* v is an eigenvector of M if M · x =  (lamda)v
+
+* Lamda is called the eigen-value associated with v
+
+* For any eigenvector v of M and scalar a,
+
+  ![](img/w4/func_eigen.png)
+
+* Thus you can always choose eigenvectors of length 1:![](img/w4/eigen2.png)
+
+*  If M has any eigenvectors, it has n of them, and they are orthogonal to one another.
+* Thus eigenvectors can be used as a new basis for a ndimensional vector space.
+
+### Steps for PCA
+
+![](img/w4/steps_pc.png)
+
+## Independent Component Analysis
+
+“Independent component analysis (ICA) is a method for finding underlying factors or components from multivariate (multidimensional) statistical data. What distinguishes ICA from other methods is that it looks for components that are both statistically independent, and nonGaussian
+
+![](img/w4/ica_1.png)
+
+* Finds the directions of maximum independence
+* Focus on independent and non-Gaussian components
+* Higher-order statistics
+* Non-orthogonal transformation
+
+### Cocktail Party Problem
+
+ICA Separation Algorithm
+
+* Separation of Speech Signals
+* Humans can separate multiple signals with only two ears/sensors
+* ICA needs as many ears/sensors as message signals • Here we assume he has four ears!
+
+ICA is a statistical method, the goal of which is to decompose given multivariate data into a linear sum of statistically independent components
+
+### ICA Solution
+
+![](img/w4/ica_solution.png)
+
+Find W using the ICA Algorithm. Goal will be to find a matrix W such that the entries of Ŝ = WX are as independent as possible.
+
+### ICA Separation Technique
+
+* Central Limit Theorem (in reverse)
+* Maximizing Non-Gaussianity
+
+### What is independent component?
+
+If one variable can not be estimated from other variables.
+
+By Central Limit Theorem, a sum of two independent random variables is more gaussian than original variables è distribution of independent components are nongaussian
+
+![](img/w4/gaussian.png)
+
+Addition of two independent Gaussian random variables is another single Gaussian random variable.
+
+ICA maximizes independence between signals.
+
+The mixing matrix and independent components are unknown
+
+The number of separated signals cannot be larger than the number of inputs
+
+* Blind source separation (BSS)
+* Image denoising
+* Medical signal processing
+* fMRI, ECG, EEG
+* Clustering
+

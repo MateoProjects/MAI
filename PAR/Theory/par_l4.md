@@ -76,5 +76,48 @@ Le da al agente retroalimentación sobre su comportamiento, y esa recompensa obt
 
 **Factor de descuento**
 
-Debido a la posibilidad de secuencias infinitas de *time* *steps* en las tareas continuas, necesitamos una forma de descontar el valor de las recompensas a lo largo del tiempo. Este parámetro se denomina **factor de descuento** *(discount factor)*, y se denota con ***γ**
+Debido a la posibilidad de secuencias infinitas de *time* *steps* en las tareas continuas, necesitamos una forma de descontar el valor de las recompensas a lo largo del tiempo. Este parámetro se denomina **factor de descuento** *(discount factor)*, y se denota con ***γ*** 
+
+
+
+---
+
+Process:
+
+* Start in state *si*
+* Receive immediate reward *ri*
+* Choose action *ak* in A
+* Change to state *sj* with probability *Pij*^k
+* Discount future rewards
+
+## Solving an MDP
+
+* Find an action to apply to each state.
+*  A policy is a mapping from states to actions.  
+* Optimal policy - for every state, there is no other action that gets a higher sum of discounted future rewards.
+* For every MDP there exists an optimal policy.  
+* Solving an MDP is finding an optimal policy. 
+* A specific policy converts an MDP into a plain Markov system with rewards.
+
+## Value Iteration
+
+Use a Bellman's Equation
+
+![](img/w4/bellmans_equation.png)
+
+
+
+## Choose one mode
+
+![](img/w4/table.png)
+
+
+
+## Summary
+
+* MDP generalizes Graph representation
+* POMDP generalizes MDP representation
+* POMDP –representation of problems where the state of relevant variables is NOT fully known
+* Solving POMDP can be represented as solving a Belief MDP (whose size is infinite though)
+* Approximation techniques exist but intractability is still a huge issue for using POMDP planning in real world
 
