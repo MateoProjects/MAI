@@ -26,7 +26,7 @@
 
 ## Lab7 : Words sequences
 
-* **Grade obtained:** x . 
+* **Grade obtained:** 11 (It has an optional Ex.) . 
 
 ## Lab8 : STS Project
 
