@@ -14,6 +14,8 @@ Improve the performance of a software system, based on previous experience
 * We can not pin it down mathematically
 * We have data on it.
 
+**Learning algorithm**: the process for select the most appropiate hypothesis from a hypothesis set H, the set of linear models H(w0, w1) = w1x + w0, where (x0, w1) are called parameters
+
 **Prediction**: supervised learning: given(x,y) pairs, find a mapping from a new *x* to a new *y*, e.g., regression classification
 
 **Understanding**: unsupervsied learning: Given a set of *x*, find something interesting or useful about their structure. 
@@ -47,7 +49,7 @@ The selected model,
 $$
 f \in \H
 $$
- 
+
 
 ## Linear regression
 
