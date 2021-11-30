@@ -30,11 +30,11 @@
 
 ## Lab8 : STS Project
 
-* **Grade obtained:** x . 
+* **Grade obtained:** This lab was for prepare final Project so not have any grade . 
 
 ## Lab9 : Parsing
 
-* **Grade obtained:** x . 
+* **Grade obtained:** 10 . 
 
 ## Lab10 : Coreference
 
