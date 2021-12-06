@@ -24,6 +24,8 @@ System that responds to changes that occur in environment. If a program's enviro
 
 ## Aspects of proactiveness
 
+Reacting to and environment is relatively easy so agents should be proactive.
+
 * Generating and attempting to achieve goals.
 * Behavior not driven solely by event
 * Taking the initiative when appropriate
@@ -32,13 +34,27 @@ System that responds to changes that occur in environment. If a program's enviro
 
 **Example**
 
-Detects the movement of the person around the house and the actions he/she performs
+* Set of agents embedded in the home of an old or disabled person
+
+* Detects the movement of the person around the house and the actions he/she performs
+
+* Learns the usual daily patterns of behaviour
+* Can detect abnormal situations, and proactively send warnings/alarms to family/health services
 
 ## Social Ability
 
 The real world is a multi agent environment. Some goals can only be achieved with the cooperation of others.
 
 Social ability in agents is the ability to interact with other agents visa some kind of agent-communication language.
+
+### Requirements for communication
+
+* Agent communication language
+  * FIPA-ACL
+  * Message types
+  * Message attributes
+* Agent communication protocols
+* Languages to represent the content of the messages between agents
 
 ## High-level activities
 
@@ -56,6 +72,14 @@ Social ability in agents is the ability to interact with other agents visa some 
 
 * Agree conditions in an economic transaction
 * Find the agent that can provide a service with the best conditions
+
+### Other aspects related to communication
+
+* Security issues
+  * Authentication
+  * Encryption
+* Trust
+  * Reputation models
 
 ## Rationality
 
@@ -121,7 +145,7 @@ Given a vague/imprecise goal, the agent mus determine the best way to attain it.
 
 ### Autonomy requirements
 
-To have autonomy, it is necessary for and agent to have a control on its own actions (an agent cannot be obliged to do anything). Have a control on its internal state (agent state cannot be externally modified by another agent) and have the appropiate access to the resources and capabilities needed to perform its tasks.
+To have autonomy, it is necessary for and agent to have a control on its own actions (an agent cannot be obliged to do anything). Have a control on its internal state (agent state cannot be externally modified by another agent) and have the appropriate access to the resources and capabilities needed to perform its tasks.
 
 ### Autonomy limitations
 Sometimes the user may restrict the autonomy of the agent. For instance, the agent could have autonomy to search in Internet for the best place to buy a given book  but the agent could not have the autonomy to actually buy the book, using the credit card details of the user
@@ -150,6 +174,21 @@ In most applications the idea is to go somewhere to perform a given task and the
 * **Security** : How can I accept mobile agents in my computer?
 * **Privacy** : Is it secure to send an agent with the details of my credit card or with my personal preferences?
 * **Technical management** : Each computer has to be able to "pack" and agent, send it and receive agents form other machines. 
+
+## Other properties
+
+* Benevolence: An agent will always try to do what is asked of it
+* Veracity: An agent will not knowingly communicate false information
+* Character: Agents must seem honest, trustable
+* Emotion: Agents mus exhibit emotional states.
+
+## Relationships between properties
+
+* More learning &rarr;  more flexibility
+* More learning &rarr; more autonomy
+* More reasoning &rarr; more rationality
+* More reasoning &rarr; more proactivity
+* Less autonomy &rarr; less proactivity
 
 ## Conclusions
 
