@@ -1,0 +1,3 @@
+# Algorismes Genètics 
+
+En optimització matemàtica, la funció Rastrigin és una funció no convexa que s'utilitza com a problema de prova de rendiment per als algorismes d'optimització. És un exemple típic de funció multimodal no lineal. Va ser proposat per primera vegada el 1974 per Rastrigin com una funció bidimensional i ha estat generalitzat per Rudolph. La versió generalitzada va ser popularitzada per Hoffmeister & Bäck i Mühlenbein et al. Trobar el mínim d'aquesta funció és un problema bastant difícil a causa del seu gran espai de cerca i el seu gran nombre de mínims locals.

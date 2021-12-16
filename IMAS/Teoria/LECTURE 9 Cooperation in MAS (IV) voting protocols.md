@@ -27,7 +27,7 @@ Aim of the negotiation: rank a set of alternatives based on the individual ranki
 * Calculability A social preference ordering <* should exist for all possible inputs
 * Completeness <* should be defined for every pair of alternatives (o, o')∈O
 * Linearity <* should be antisymmetric and transitive over O
-* Anonimity / No dictatorship
+* Anonymity / No dictatorship
 * Unanimity / Pareto efficiency If ∀i ∈A (o <i o') then (o <* o‘) 
 * Neutrality: The outcome of the social choice rule should not depend on how alternatives are named or ordered
 * Independence of irrelevant alternatives: Removing / Adding an irrelevant alternative should not affect the winner of the vote

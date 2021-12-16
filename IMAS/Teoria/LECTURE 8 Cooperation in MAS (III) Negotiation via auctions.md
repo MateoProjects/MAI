@@ -137,11 +137,11 @@ In a multi-unit auction sealed bids are sorted from high to low, and the items a
 
 ### Vickrey auction
 
-A second-price sealed-bid auction, also known as uniform secondprice sealed-bid or the philatelist auction.
+A second-price sealed-bid auction, also known as uniform second price sealed-bid or the philatelist auction.
 
 Two distinct phases: the bidding phase and the resolution phase.
 
-The highest bid wins but the bidder pays the amount of the secondhighest bid.
+The highest bid wins but the bidder pays the amount of the second highest bid.
 
 Bidders adjust their bids upwards since they are not deterred by fear that they will have to pay too much.
 
@@ -185,7 +185,7 @@ Bids can be submitted on a combinations (bundles) of items
 
 **Advantages of auctions**
 
-* Flexibility, as protocols can be tailormade
+* Flexibility, as protocols can be tailor made
 * Less time-consuming and expensive than negotiating a price
 * Simplicity in determining the market prices
 

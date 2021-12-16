@@ -119,11 +119,11 @@ The aim of any society is to allow its members to coexist in a shared environmen
 
 Sociology is a discipline that results from an evolution of Philosophy in order to describe the interactions that arise among the members of a group, and the social structures that are established
 
-## Organizational studies
+## Organisation studies
 
-Organization theory is a descriptive discipline, mainly focusing on explaining and understanding how organizations work.
+Organisation theory is a descriptive discipline, mainly focusing on explaining and understanding how organizations work.
 
-Organization design is a normative, design-oriented discipline that aims to produce the frameworks and tools required to create effective organizations.
+Organisation design is a normative, design-oriented discipline that aims to produce the frameworks and tools required to create effective organisation.
 
 * involves the creation of roles, communication processes and formal reporting relationships in an organization.
 * Two phases:
