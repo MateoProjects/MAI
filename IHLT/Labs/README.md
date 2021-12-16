@@ -38,4 +38,9 @@
 
 ## Lab10 : Coreference
 
-* **Grade obtained:** x . 
+* **Grade obtained:** 10 .
+
+
+## Project 
+
+* **Grade obtained:** x .
