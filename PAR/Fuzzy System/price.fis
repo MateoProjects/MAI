@@ -1,0 +1,47 @@
+[System]
+Name='price'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=9
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='interest'
+Range=[0 100]
+NumMFs=3
+MF1='low':'trapmf',[-45 -5 25 45]
+MF2='medium':'trapmf',[5 33 55 95]
+MF3='high':'trapmf',[55 66 105 145]
+
+[Input2]
+Name='rank_category'
+Range=[1 10]
+NumMFs=3
+MF1='best':'trapmf',[-3.05 0.55 3 5.05]
+MF2='medium':'trapmf',[1.45 4 7 9.55]
+MF3='worst':'trapmf',[5.95 8 10.45 14.05]
+
+[Output1]
+Name='prices'
+Range=[1 115]
+NumMFs=3
+MF1='cheap':'trapmf',[-50.3 -4.7 20 52.3]
+MF2='medium':'trapmf',[6.7 30 70 109.3]
+MF3='expensive':'trapmf',[63.7 75 115 166.3]
+
+[Rules]
+1 1, 2 (1) : 1
+1 2, 2 (1) : 1
+1 3, 1 (1) : 1
+2 1, 2 (1) : 1
+2 2, 2 (1) : 1
+2 3, 1 (1) : 1
+3 1, 3 (1) : 1
+3 2, 2 (1) : 1
+3 3, 2 (1) : 1
