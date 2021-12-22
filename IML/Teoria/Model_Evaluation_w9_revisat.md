@@ -41,6 +41,10 @@ In model evaluation:
 
   * How many accurate examples did we capture in our top N ranked examples. This is often used in information (document) retrieval
 
+```default
+<div style="page-break-after: always;"></div>
+```
+
 ### Confusion matrix
 
 ![](img/w9/confusion_matrix.jpg)
@@ -50,6 +54,10 @@ In model evaluation:
 ---
 
 Accuracy could not be useful measure in cases where there is a large class skew (sesgat)
+
+
+
+
 
 ### Precision/recall curves
 
