@@ -123,6 +123,4 @@ This also means that optimization problem can be solved in polynomial time
 
 **Example Kernel functions**
 
-We use kernels because make non-separable problem separable and map data into better representational space.
-
-![](img/w10/kernel_funct.jpg)
+We use kernels because make non-separable problem separable and map data into better representational space.![](img/w10/kernel_funct.jpg)
