@@ -22,6 +22,10 @@ Improve the performance of a software system, based on previous experience
 
 **Control**: reinforcement learning: given an external system upon which you can exert control action *a* and receive percepts, *p*, a reward signal *r* indicating good
 
+**Regression**: Given a picture of a person, we have to predict their age on the basis of the given picture. The output is continuous.
+
+**Classification**: Given a patient with a tumor, we have to predict whether the tumor is malignant or benign. The output is discrete. 
+
 ![](img/w6/supervised.png)
 
 
@@ -60,3 +64,42 @@ $$
 ## Descent optimization methods
 
 ![](img/w6/descent_method.png)
+
+**How do we find the minimum in an automated way?**
+
+![](img/w6/automated_way.jpg)
+
+With descent methods:
+
+![](img/w6/descent_method_2.jpg)
+
+The gradient of a function is the multi-variate extension of the derivative for a single variable.
+
+Not all direction on that space are descent directions.
+
+![](img/w6/descent_method_a2.jpg)
+
+Gradient descent is an algorithm to minimize any function or parameter.
+
+* *t* is the learning rate. 
+  * If *t* is too small, gradient descent will be slow.
+  * If t is too large, gradient descent can overshoot the minimum. It may fail to converge or even diverge
+  * Gradient descent can converge even if t is fixed
+
+## Basic concepts of ML
+
+![](img/w6/bc.jpg)
+
+![](img/w6/bc2.jpg)
+
+![](img/w6/bc3.jpg)
+
+![](img/w6/bc4.jpg)
+
+![](img/w6/bc5.jpg)
+
+![](img/w6/bc6.jpg)
+
+![](img/w6/bc7.jpg)
+
+![](img/w6/bc8.jpg)

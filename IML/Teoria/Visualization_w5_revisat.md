@@ -4,6 +4,8 @@
 
 Main goal is to communicate the information clearly and effectively through graphical means. So the **VISUALIZATION** is the study of the visual representation of the data. 
 
+**Main goal** is to communicate the information clearly and effectively through graphical means.
+
 Information  > data > knowledge > wisdom
 
 ![](img/w5/lego-connect.png)
@@ -32,7 +34,9 @@ Information  > data > knowledge > wisdom
 
 ## Self Organizing Maps
 
-Kohonen describes SOM as "visualization and analysis tool for high dimensional data"
+Kohonen describes SOM as "visualization and analysis tool for high dimensional data".
+
+It is an unsupervised  ANN.
 
 **Applications**
 
@@ -88,11 +92,31 @@ The purpose of SOM is to map a multi-dimensional input space onto a topology pre
 * Fine tuning phase
   * SOM match the neurons as far as possible to the input patterns, thus decreasing the quantization error
 
+**Example**: Learning a one-dimensional representation of a two-dimensional (triangular) input space:
+
+![](img/w5/som_training.jpg)
+
+**Example 2**: Learning a two-dimensional representation of a twodimensional (square) input space
+
+![](img/w5/som_training2.jpg)
+
+**SOM algorithm**
+
+![](img/w5/som_algorithm.jpg)
+
 ### Neighbourhood function
 
 Indicates how closely neurons i and k in the output layer are connected to each other. Usually used Gaussian function 
 
 ![](img/w5/gaussian.png)
+
+**Summary of SOM**
+
+* Unsupervised ANN
+* Cooperative learning
+* Competitive learning
+* Has the capability to generalize
+* K-means is an special case of SOM
 
 ## Multi-Dimensional Scaling (MDS)
 
@@ -132,9 +156,35 @@ Classical MDS uses Euclidean to model data proximities in geometrical space.
 
 ![](img/w5/euclidean.png)
 
+
+
+**Algorithm**
+
+![](img/w5/mds_algorithm.jpg)
+
 ### Output of MDS
 
 * Clusters: Grouping in a MDS spatial representation.
   * Rrepresent a domain/subdomain
 * Dimensions: Hidden structures in data. Ordered groupings that explain similarity between items.
 
+**Advantages**
+
+* Not require assumptions of linearity, metricity, or multivariate normality
+* Can be used to model nonlinear relationships
+
+* Dimensions that emerge from MDS can be incorporated into regression analysis to assess their relationship with other variables
+
+**Disadvantages**
+
+* Provides a global measure of dis/similarity but does not provide much insight into subtleties.
+* Increased dimensionality: Difficult to represent and decreases intuitive understanding of the data. As such, the model of the data becomes as complicated as the data itself.
+* Determination of meanings of dimensions is subjective.
+
+### Summary
+
+* MDS: technique used in data visualisation for exploring similarities or dissimilarities in data. An MDS algorithm starts with a matrix of item-item similarities, then assigns a location of each item in a low-dimensional space, suitable for graphing or 3D visualisation.
+* Taxonomy
+  * Metric multidimensional scaling -- assumes the input matrix is just an item-item distance matrix. Analogous to PCA, an eigenvector problem is solved to find the locations that minimize distortions to the distance matrix. Its goal is to find a Euclidean distance approximating a given distance.
+  * Generalized multidimensional scaling (GMDS) -- A superset of metric MDS that allows for the target distances to be non-Euclidean.
+  * Non-metric multidimensional scaling -- It finds a non-parametric monotonic relationship between the dissimilarities in the item-item matrix and the Euclidean distance between items, and the location of each item in the low-dimensional space.

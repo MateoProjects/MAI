@@ -34,7 +34,7 @@ In a data collection M, the nearest neighbor to a data object q is the data obje
 
 ### Voronoi diagram
 
-Voronoi diagram is a way of dividing space into a number of regions 
+Voronoi diagram is a way of dividing space into a number of regions. 
 
 * The regions are called Voronoi cells.
 * A Voronoi diagram is the computational geometry concept that represents partition of the given space onto regions, with bounds determined by distances to a specified family of objects.
@@ -54,11 +54,17 @@ Differences:
 
 It produces a local approximations to the target function
 
+On IB1 just store the training examples, D.
+
 **Distance Measure** : Neares neighbour, typically Euclidean
 
 **Number of neighbours to consider** : One
 
-Algorithm only use a selected instances to generate classification predictions
+Algorithm only use a selected instances to generate classification predictions.
+
+**Algorithm**
+
+![](img/w7/ibl1_algorithm.jpg)
 
 IBL algorithms are incremental and their goals include: maximizing classification accuracy.
 
@@ -107,7 +113,7 @@ Irrelevant features within a large feature set, tend to degrade performance
 
 ## Distance-Weighted kNN
 
-The weighted k-NN algorithm can be used for classification or regression
+The weighted k-NN algorithm can be used for classification or regression.
 
 * Pros: Fast training, its a lazy algorithm, learn complex functions easily and not lose information.
 * Cons: Slow at query time and need a lot of storage.
@@ -141,13 +147,15 @@ CBR is an advances instance-based learning appplied to more complex instance obj
 
 4. Revise the proposed solution
 
+4. A received solution and a new problem together form a new case that is incorporated in the case base during the learning step (retain phase)
+
    
 
 In CBR a new problem can be solved by retrieving similar problems or adapting retrieved solutions. Similar problems have similar solutions
 
 ![](img/w7/cbr.png)
 
-Assumptions in CBR: 
+### Assumptions in CBR 
 
 * Similar problems have similar solutions
 * The world is a regular place: what holds true today will probably hold true tomorrow
@@ -173,6 +181,22 @@ Assumptions in CBR:
 ### Solving a new diagnostic problem
 
 ![](img/w7/case1.png)
+
+**Similarity of cases**
+
+* Similarity for each feature
+  * Depends on feature values.
+
+### Modeling similarity
+
+Different approaches depending on case representation.
+
+Similarity measures:
+
+* Local similarity measure: similarity on feature level.
+* Global similarity measure:
+  * Combines local similarity measures
+  * Takes care of different importance of attributes
 
 ### How to adapt the solution
 
@@ -203,6 +227,30 @@ Assumptions in CBR:
 * Forgetting cases (learn to forget)
   * For efficiency or because out of date
 
+### CBR cycle
+
+![](img/w7/cbr_cycle.jpg)
+
 ### Pros & Cons
 
 ![](img/w7/pros_cons.png)
+
+**Advantages over other techniques**
+
+* Reduces the knowledge acquisition effort
+* Requires less maintenance effort
+* Makes use of existing data in databases.
+* Improve over time and adapt to changes in the environment.
+* High user acceptance.
+
+## Summary
+
+* CBR is a technique for solving problems based on experience
+* CBR problem solving involves four phases
+  * Retrieval, Reuse, Revise, and Retain
+* Different techniques for:
+  * Representing the knowledge, in particular, the cases
+  * Realizing the four phases
+* CBR has several advantages over tradition Knowledge-based Systems
+* Several applications
+  * Classification, diagnosis, decision support, planning, configuration, design, ... 

@@ -16,6 +16,10 @@ FA searches for a such joint variations in response to unobserved latent variabl
 
 - Take many variables and explain them with a few factors or components.
 - Correlated variables are grouped together and separated from other variables with low or no correlations.
+- Two types of "variables":
+  - Latent variables: not directly observed but inferred
+  - Observable variables: observed and directly measured
+
 
 **FA** is an approach to deal with high dimensional data.
 
@@ -37,9 +41,9 @@ So with this we can reduce the time complexity => Time of computation, search sp
 ## Problems of FA
 
 * After extraction there is an infinite number of rotations available
-* FA is frequently used to "save" poorly conceived research
+* FA is frequently used to "save" poorly conceived research (salvar investigacions mal concebudes)
 * There is no statistical criterion to compare the linear combination to
-  * (no entenc aquesta diapo)
+
 
 ## Types of Factor Analysis
 
@@ -56,6 +60,11 @@ So with this we can reduce the time complexity => Time of computation, search sp
 * CFA is a more complex approach that test the hypothesis that the items are associated with specific factors.
 * When factor structure is known or at least theorized
 * Testing generalization of factor structure to new data etc..
+
+**Summary of FA**
+
+* Enables us to reduce the complexity of data
+* Makes it possible to identify the latent variables which exist underneath a set of variables which are actually observed.
 
 ## Applications of Factor Analysis
 
@@ -84,6 +93,8 @@ The objective in FA is to explain the covariances or correlations among the vari
 
 **Goal of PCA**: find new representation (basis) to filter the noise and reveal hidden dynamics
 
+The new variables/dimensions are linear combinations of the original ones. Are uncorrelated with one another and are called principal components.
+
 Principal component analysis (PCA) involves a mathematical procedure that transforms a number of (possibly) correlated variables into a (smaller) number of uncorrelated variables called principal components
 
 Usually, PCA is used to discover or reduce the dimensionality of the data set, or to identify new meaningful underlying variables, i.e., patterns in the data.
@@ -94,6 +105,14 @@ PCA is "an orthogonal linear transformation" the data to a new coordinate.
 * Decide on wich are significant
 * Map data to the new space
 
+![](img/w4/pca.jpg)
+
+First principal component is the direction of greatest variability (covariance) in the data. 
+
+Second is the next orthogonal (uncorrelated) direction of greatest variability.
+
+* First remove all the variability along the first component, and then find the next direction of greatest variability. 
+
 ### PCA in a nutshell
 
 * Principle
@@ -101,12 +120,19 @@ PCA is "an orthogonal linear transformation" the data to a new coordinate.
   * Transfer a set of correlated variables into a new set of uncorrelated variables
   * Map the data into a space of lower dimensionality
   * Form of unsupervised learning
+* Properties
+  * Can be viewed as a rotation of the existing axes to new positions in the space defined by original variables.
+  * New axes are orthogonal and represent the directions with maximum variability.
+
 
 ### Geometric Rationale of PCA
 
-Objects are represented as a cloud of n points in a
+Objects are represented as a cloud of ***n*** points in a
 multidimensional space with an axis for each of the
 p variables
+
+* First, the centroid of the points is defined by the mean of each variable.
+* Second, the variance of each variable is the average squared deviation of its ***n*** values around the mean of that variable. 
 
 ![](img/w4/geometric_rationale.png)
 
@@ -135,12 +161,14 @@ Covariance of two attributes
 - Different matrices have different eigenvectors
 - Only square matrices have eigenvectors
 - Not all square matrices have eigenvectors
+- An *** n x n*** matrix has at most n distinct eigenvectors.
+- All the eigenvectors of a ***n x n*** matrix, with n different eigenvalues, are perpendicular (or orthogonal)
 
 **Example**
 
 Let M be an *n·n* matrix
 
-* v is an eigenvector of M if M · x =  (lamda)v
+* v is an eigenvector of M if M &times;  v  =  &lambda; v
 
 * Lamda is called the eigen-value associated with v
 
@@ -150,12 +178,21 @@ Let M be an *n·n* matrix
 
 * Thus you can always choose eigenvectors of length 1:![](img/w4/eigen2.png)
 
-*  If M has any eigenvectors, it has n of them, and they are orthogonal to one another.
+* If M has any eigenvectors, it has n of them, and they are orthogonal to one another.
+
 * Thus eigenvectors can be used as a new basis for a ndimensional vector space.
+
+**Example of process in L4 Slide 41**
 
 ### Steps for PCA
 
 ![](img/w4/steps_pc.png)
+
+### How many PCs?
+
+* For **n** original dimensions , correlation matrix is **n &times; n**, and has up to **n** eigenvectors. So **n** PCs
+
+If eigenvalues are small we don't lose much information.
 
 ## Independent Component Analysis
 
@@ -167,6 +204,13 @@ Let M be an *n·n* matrix
 * Focus on independent and non-Gaussian components
 * Higher-order statistics
 * Non-orthogonal transformation
+
+Mean while PCA :
+
+* Fins the direction of maximum variance
+* Focus on uncorrelated and Gaussian components
+* Second-order statistics
+* Orthogonal transformation
 
 ### Cocktail Party Problem
 
@@ -186,6 +230,8 @@ Find W using the ICA Algorithm. Goal will be to find a matrix W such that the en
 
 ### ICA Separation Technique
 
+***Central limit theorem** : if twho random (non-Gaussian) signals are added, the resulting signal will be more Gaussian than the original two random signals*
+
 * Central Limit Theorem (in reverse)
 * Maximizing Non-Gaussianity
 
@@ -198,6 +244,12 @@ By Central Limit Theorem, a sum of two independent random variables is more gaus
 ![](img/w4/gaussian.png)
 
 Addition of two independent Gaussian random variables is another single Gaussian random variable.
+
+### Measure nongaussianity
+
+![](img/w4/kurtosis.jpg)
+
+
 
 ICA maximizes independence between signals.
 
