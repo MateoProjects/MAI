@@ -2,6 +2,16 @@
 
 **Definition**: Vision is about discovering from images what is present in the scene and where it is. The computer interprets images of a real scene to: perceive the story behind the image and obtain information useful for tasks such as navigation, manipulation and recognition.
 
+### Mar's Historical definition
+
+![](img/w1/mars_historical_definition.jpg)
+
+The eye's spatial resolution is about 0.01 over a 150 field of view.
+
+Two eyes give a data rate of about 3 GBytes.
+
+Temporal resolution is about 100 ms (10 Hz).
+
 ### Main Problems
 
 **Computer Vision bridges the gap between pixels and “meaning”**
