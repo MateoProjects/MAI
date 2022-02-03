@@ -14,4 +14,4 @@
 
 * Puzzle Game : **100/100**
 
-* Fuzzy expert system: **70/100*
+* Fuzzy expert system: **70/100**
