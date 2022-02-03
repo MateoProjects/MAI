@@ -43,4 +43,4 @@
 
 ## Project 
 
-* **Grade obtained:** x .
+* **Grade obtained:** 8.75 .
