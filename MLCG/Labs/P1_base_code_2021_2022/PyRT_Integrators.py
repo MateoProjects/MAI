@@ -134,6 +134,7 @@ class CMCIntegrator(Integrator):  # Classic Monte Carlo Integrator
         self.n_samples = n
 
     def compute_color(self, ray):
+        # 1/N + sum(1-N)(fx_i / px_i)
         pass
 
 

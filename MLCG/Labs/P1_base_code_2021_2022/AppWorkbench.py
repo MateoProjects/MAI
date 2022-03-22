@@ -23,7 +23,12 @@ def collect_samples(function_list, sample_pos_):
 # ########################################################################################### #
 def compute_estimate_cmc(sample_prob_, sample_values_):
     # TODO: PUT YOUR CODE HERE
-    return 0
+    count = 0
+    for prob, sample in zip(sample_prob_, sample_values_):
+        count += sample.r / prob
+
+
+    return count / len(sample_prob_)
 
 
 
@@ -74,10 +79,10 @@ print('Ground truth: ' + str(ground_truth))
 # Experimental set-up #
 # ################### #
 ns_min = 20  # minimum number of samples (ns) used for the Monte Carlo estimate
-ns_max = 101  # maximum number of samples (ns) used for the Monte Carlo estimate
+ns_max = 1001  # maximum number of samples (ns) used for the Monte Carlo estimate
 ns_step = 20  # step for the number of samples
 ns_vector = np.arange(start=ns_min, stop=ns_max, step=ns_step)  # the number of samples to use per estimate
-n_estimates = 1  # the number of estimates to perform for each value in ns_vector
+n_estimates = 100  # the number of estimates to perform for each value in ns_vector
 n_samples_count = len(ns_vector)
 
 # Initialize a matrix of estimate error at zero
@@ -95,9 +100,14 @@ for k, ns in enumerate(ns_vector):
 
     # TODO: Estimate the value of the integral using CMC
     estimate_cmc = 0
-    abs_error = abs(ground_truth - estimate_cmc)
-
-    results[k, 0] = abs_error
+    absolute_error = 0
+    for _ in range(n_estimates):
+        sample_set, sample_prob =  sample_set_hemisphere(ns, uniform_pdf)
+        sample_values = collect_samples(integrand, sample_set)
+        estimate = compute_estimate_cmc(sample_prob, sample_values)
+        absolute_error += abs(estimate - ground_truth)
+    absolute_error = absolute_error / n_estimates
+    results[k, 0] = absolute_error
 
 
 # ################################################################################################# #
