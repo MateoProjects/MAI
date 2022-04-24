@@ -100,18 +100,28 @@ class PhongIntegrator(Integrator):
     def compute_color(self, ray):
         hitData = self.scene.closest_hit(ray)
         if hitData.has_hit:
+            # if not occluded
+            point_light = self.scene.pointLights[0].pos # tupla de 3 valors x , y , z
+            # intersection of two points
+            direction = point_light - hitData.hit_point
+            direction_arr = np.array([direction.x, direction.y, direction.z],dtype=np.float64)
+            distanceLight = np.linalg.norm(direction_arr)
+            direction = direction / distanceLight
+            rayLight = Ray(hitData.hit_point, direction, distanceLight)
+            hitDataShadow = self.scene.any_hit(rayLight)
             primitiva = self.scene.object_list[hitData.primitive_index]
-            lambert = Lambertian(primitiva.BRDF.kd)
-            direction = ray.d.__mul__(-1)
-            value = lambert.get_value(normal=hitData.normal,wo=1, wi=direction)
-            intensity = self.scene.pointLights[0].intensity
-            #color = (intensity/hitData.hit_distance**2)
-            #color = color.__mul__(value)
-           # color = color.__mul__(primitiva.BRDF.kd)
-            value = value.multiply(intensity/(hitData.hit_distance**2))
-            value = value.multiply(primitiva.BRDF.kd)
 
-            return value
+            if not hitDataShadow:
+                #direction = ray.d.__mul__(-1)
+                value = primitiva.BRDF.get_value(normal=hitData.normal,wo=1, wi=direction)
+                intensity = self.scene.pointLights[0].intensity
+
+                value = value.multiply(intensity/(distanceLight**2))
+                return value + primitiva.BRDF.kd.multiply(self.scene.i_a)
+
+            else:  
+                return primitiva.BRDF.kd.multiply(self.scene.i_a)
+    
         else: return BLACK
         
 
@@ -124,6 +134,7 @@ class CMCIntegrator(Integrator):  # Classic Monte Carlo Integrator
         self.n_samples = n
 
     def compute_color(self, ray):
+        # 1/N + sum(1-N)(fx_i / px_i)
         pass
 
 
