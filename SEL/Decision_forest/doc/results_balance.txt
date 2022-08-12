@@ -1,0 +1,15 @@
+Decision forest mean: 0.5428666666666667
+Total Features in decision forest used:  
+[
+array([], dtype=float64), array([0]), array([0, 1]), array([0, 1, 2]),
+array([], dtype=float64), array([0]), array([0, 1]), array([0, 1]), 
+array([], dtype=float64), array([0]), array([0, 1]), array([0]), 
+array([], dtype=float64), array([0]), array([0, 1]), array([0, 1, 3, 2]), 
+array([], dtype=float64), array([0]), array([0, 1]), array([0, 1, 2]), 
+array([], dtype=float64), array([0]), array([0, 1]), array([0])]
+Random forest mean: 0.6388666666666667
+Total Features in random forest used:  
+[array([0]), array([0, 1, 2]), array([0, 1]), array([0]), array([0]), array([0, 1, 2]), array([0, 1]), 
+array([0]), array([0]), array([0, 1, 2]), array([0, 1]), array([0]), array([0]),
+ array([0, 1, 2]), array([0, 1]), array([0]), array([0]), array([0, 1, 2]), array([0, 1]), 
+array([0]), array([0]), array([0, 1, 2]), array([0, 1]), array([0])]

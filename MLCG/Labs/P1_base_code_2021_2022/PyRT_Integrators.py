@@ -10,15 +10,16 @@ class Integrator(ABC):
     def __init__(self, filename_, experiment_name=''):
         # self.primitives = []
         self.filename = filename_ + experiment_name
-        # self.env_map = None  # not initialized
+        self.env_map = None  # not initialized
         self.scene = None
 
     @abstractmethod
     def compute_color(self, ray):
         pass
 
-    # def add_environment_map(self, env_map_path):
-    #    self.env_map = EnvironmentMap(env_map_path)
+    def add_environment_map(self, env_map_path):
+        self.env_map = EnvironmentMap(env_map_path)
+
     def add_scene(self, scene):
         self.scene = scene
 
@@ -134,8 +135,38 @@ class CMCIntegrator(Integrator):  # Classic Monte Carlo Integrator
         self.n_samples = n
 
     def compute_color(self, ray):
-        # 1/N + sum(1-N)(fx_i / px_i)
-        pass
+        hitData = self.scene.closest_hit(ray)
+        if hitData.has_hit:
+            primitiva = self.scene.object_list[hitData.primitive_index]
+            material = primitiva.get_BRDF()
+            normal = hitData.normal
+            uniform_pdf = UniformPDF()
+            sample_set, sample_prob = sample_set_hemisphere(self.n_samples, uniform_pdf)
+            color = BLACK
+            inverse_ray = ray.d*-1
+            for sample, probability in zip(sample_set, sample_prob):
+                sample = center_around_normal(sample, normal)
+                ray_wi = Ray(hitData.hit_point, sample, 1)
+                shot_r = self.scene.closest_hit(ray_wi)
+                if shot_r.has_hit:
+                    primitiva_v2 = self.scene.object_list[shot_r.primitive_index]
+                    color_iter = primitiva_v2.emission
+                else:
+                    if self.scene.env_map is not None:
+                       color_iter = self.scene.env_map.getValue(sample)
+                
+                gamma = material.get_value(sample,inverse_ray , normal)
+                cos_gamma = Dot(sample, normal)
+                color += (color_iter.multiply(gamma)*cos_gamma)/probability
+            color = color / self.n_samples
+
+        else :
+            if self.scene.env_map is not None:
+                color = self.scene.env_map.getValue(ray.d)
+            else: 
+                color = BLACK
+        return color
+
 
 
 class BayesianMonteCarloIntegrator(Integrator):

@@ -13,7 +13,7 @@ class Scene:
         self.rendered_image = None
         self.object_list = []  # object list
         self.pointLights = []  # list of point light sources (for Phong Illumination)
-        self.i_a = None
+        self.i_a = None # ambient lighting
 
     def set_ambient(self, i_a):
         self.i_a = i_a

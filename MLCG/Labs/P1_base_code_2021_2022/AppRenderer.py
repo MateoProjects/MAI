@@ -166,9 +166,10 @@ DIRECTORY = '.\\out\\'
 
 # -------------------------------------------------Main
 # Create Integrator
-integrator = PhongIntegrator(DIRECTORY + FILENAME)
+#integrator = PhongIntegrator(DIRECTORY + FILENAME)
+integrator = CMCIntegrator(40, DIRECTORY + FILENAME)
 
-scene = sphere_test_scene(areaLS=False, use_env_map=False)
+scene = sphere_test_scene(areaLS=False, use_env_map=True)
 #scene = cornell_box_scene(0.75, 2, areaLS=False)
 
 # Attach the scene to the integrator

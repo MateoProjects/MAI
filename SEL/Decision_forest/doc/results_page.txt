@@ -1,0 +1,16 @@
+Decision forest mean: 0.9557448687496194
+Total Features in decision forest used:  
+[array([0, 1]), array([3, 0, 1, 2]), array([0, 3, 4, 2, 1, 5]), array([3, 7, 6, 0, 4, 1]), 
+array([0, 1]), array([3, 0, 1, 2]), array([0, 3, 4, 2, 1, 5]), array([3, 0, 6, 4, 1, 5, 2]), 
+array([0, 1]), array([3, 0, 1, 2]), array([0, 3, 4, 2, 1, 5]), array([0, 1]), array([0, 1]), 
+array([3, 0, 1, 2]), array([0, 3, 4, 2, 1, 5]), array([0]), array([0, 1]), array([3, 0, 1, 2]), 
+array([0, 3, 4, 2, 1, 5]), array([3, 0, 1, 2]), array([0, 1]),
+array([3, 0, 1, 2]), array([0, 3, 4, 2, 1, 5]), array([0, 1])]
+
+
+Random forest mean: 0.9470430598696632
+Total Features in random forest used:  
+[array([0]), array([0, 1, 2]), array([0, 3, 2, 1]), array([1, 0]), array([0]), array([1, 0, 2]), 
+array([3, 0, 1, 2]), array([1, 0]), array([0]), array([0, 1, 2]), array([0, 3, 2, 1]), array([0, 1]), 
+array([0]), array([0, 1, 2]), array([0, 3, 1, 2]), array([1, 0]), array([0]), array([0, 1, 2]), 
+array([0, 3, 1, 2]), array([0, 1]), array([0]), array([0, 1, 2]), array([0, 3, 1, 2]), array([0, 1])]

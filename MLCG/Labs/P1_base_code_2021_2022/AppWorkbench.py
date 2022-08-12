@@ -22,7 +22,6 @@ def collect_samples(function_list, sample_pos_):
 # this function returns the classic Monte Carlo (cmc) estimate of the integral.               #
 # ########################################################################################### #
 def compute_estimate_cmc(sample_prob_, sample_values_):
-    # TODO: PUT YOUR CODE HERE
     count = 0
     for prob, sample in zip(sample_prob_, sample_values_):
         count += sample.r / prob

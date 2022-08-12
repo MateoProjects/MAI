@@ -1,0 +1,14 @@
+Iris
+Decision forest mean: 0.6363888888888889
+Total Features in decision forest used:  [array([], dtype=float64), array([0]), array([0, 1]), 
+array([0, 2]), array([], dtype=float64), array([0]), array([0, 1]), array([0]), 
+array([], dtype=float64), array([0]), array([0, 1]), array([0, 1]), array([], dtype=float64), 
+array([0]), array([0, 1]), array([], dtype=float64), array([], dtype=float64), array([0]), 
+array([0, 1]), array([], dtype=float64), array([], dtype=float64), array([0]), array([0, 1]), 
+array([0, 2])]
+Random forest mean: 0.8175
+Total Features in random forest used:  
+[array([0]), array([2, 0, 1]), array([0, 1]), array([0]), array([0]), array([2, 0, 1]), 
+array([0, 1]), array([0]), array([0]), array([2, 0, 1]), array([0, 1]), array([0]), 
+array([0]), array([2, 0, 1]), array([0, 1]), array([0]), array([0]), array([2, 0, 1]), 
+array([0, 1]), array([0]), array([0]), array([2, 0, 1]), array([0, 1]), array([0])]
