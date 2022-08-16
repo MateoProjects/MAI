@@ -131,3 +131,5 @@ dmypy.json
 *.pdf
 
 *.idea/*
+DL/L2/MAMe_data_256.zip
+DL/L2/weights-MAMe_0.7361040115356445.hdf5
