@@ -1,0 +1,1336 @@
+1 (r)-warfarin
+1 (s)-warfarin
+1 18-methoxycoronaridine
+1 25-dihydroxycholecalciferol d3
+1 3-hydroxydesloratadine
+1 4-hydroxytamoxifen
+1 5-dfur
+1 5-oxo-desethylzaleplon glucuronide
+1 6-mp
+1 6-deoxy penciclovir
+1 6-thiouric acid
+1 8-phenyltheophylline
+1 99mtc-methylene diphosphonate
+1 adl-8-2698
+1 asa
+1 aza
+1 abacavir
+1 acebutolol
+1 acetylcysteine
+1 amantadine
+1 amitriptyline
+1 amoxicillin
+1 amphotericin b
+1 ampicillin
+1 anabolic steroids
+1 anakinra
+1 antiminth
+1 apraclonidine
+1 arthropan
+1 ascorbic acid
+1 astemizole
+1 atovaquone
+1 atropine
+1 azathioprine
+1 azlocillin
+1 brevibloc
+1 benazepril
+1 bentiromide
+1 benzthiazide
+1 benzylpenicillin
+1 bexarotene
+1 boric acid
+1 bromocriptine mesylate
+1 bumetanide
+1 buprenorphine
+1 butalbital
+1 cns depressants
+1 caffeine
+1 carbidopa
+1 caspofungin
+1 castor oil
+1 cefuroxime
+1 chlorprothixene
+1 cinacalcet
+1 clindamycin
+1 clomipramine hcl
+1 colchicine
+1 corticotropin
+1 cyclopentolate
+1 cyclopropane
+1 cyclosporine a
+1 cypermethrin
+1 d-penicillamine
+1 dactinomycin
+1 danazol
+1 dexfenfluramine
+1 dexmedetomidine
+1 dexrazoxane
+1 dimenhydrinate
+1 diphenhydramine hydrochloride
+1 diphenoxylate hcl
+1 dolasetron mesylate
+1 dopamine
+1 doxylamine
+1 epo
+1 edetate calcium disodium
+1 entacapone
+1 epirubicin
+1 eplerenone
+1 ethosuximide
+1 ethoxzolamide
+1 etonogestrel
+1 exemestane
+1 felodipine
+1 fenbufen
+1 fenofibrate
+1 flecainide
+1 fluvastatin
+1 folinic acid
+1 fosinopril
+1 fosinopril sodium
+1 ganciclovir
+1 gentamycin
+1 ginkgo biloba
+1 glibenclamide
+1 green tea polyphenols
+1 guanethidine
+1 hctz
+1 hmg-coa reductase inhibitor
+1 halothane
+1 inh
+1 imipramine hydrochloride
+1 irinotecan
+1 kcl
+1 l-lysine
+1 l-methionine
+1 l-tryptophan
+1 l-tyrosine
+1 levofloxacin
+1 linezolid
+1 lithium carbonate
+1 losartan
+1 mecamylamine
+1 medroxyprogesterone acetate
+1 melatonin
+1 meperidine
+1 mequitazine
+1 mercaptopurine
+1 methionine
+1 methscopolamine
+1 methylprednisolone
+1 methyprylon
+1 methysergide
+1 metoclopramide
+1 metoprolol
+1 micafungin
+1 mitomycin-c
+1 monoamine oxidase inhibitors
+1 ntg
+1 nalidixic acid
+1 nateglinide
+1 nefazodone
+1 neomycin
+1 netilmicin
+1 nicardipine hcl
+1 nicotinic acid
+1 nitrofurantoin
+1 non-pegylated interferon alfa-2a
+1 norepinephrine
+1 omeprazole
+1 ondansetron
+1 oxandrolone
+1 pantoprazole
+1 pentamidine
+1 perhexiline hydrogen maleate
+1 pimozide
+1 piperacillin sodium
+1 prednisone
+1 promethazine
+1 propanolol
+1 pyrantel
+1 pyrimethamine
+1 quetiapine fumarate
+1 r warfarin
+1 r(+) warfarin
+1 r- warfarin
+1 raloxifene
+1 riboflavin
+1 rivastigmine
+1 s warfarin
+1 s(-)warfarin
+1 s- warfarin
+1 sertraline
+1 sildenafil citrate
+1 simvastatin
+1 sirolimus
+1 sodium thiosulfate
+1 soriatane
+1 streptozocin
+1 sulfamethizole
+1 sulfamethoxazole
+1 sulfoxone
+1 sulindac
+1 t3
+1 t4
+1 tao
+1 thc
+1 tacrolimus
+1 telithromycin
+1 tenecteplase
+1 thiabendazole
+1 thiamine
+1 thioguanine
+1 thioridazine
+1 thyroxine
+1 tizoxanide
+1 tramadol
+1 urinary acidifying
+1 valproic acid
+1 valproic acid
+1 vecuronium
+1 venlafaxine
+1 vindesine
+1 vitamin b1
+1 vitamin b2
+1 vitamin b3
+1 zaleplon
+1 abatacept
+1 abciximab
+1 acetylcysteine
+1 adefovir dipivoxil
+1 alcohols
+1 allopurinol sodium
+1 alpha interferons
+1 alprostadil
+1 altretamine
+1 aluminum hydroxides
+1 aminocaproic acid
+1 aminopyrine
+1 ammonium chloride
+1 amphotericin
+1 amrinone
+1 amyl nitrite
+1 amylase
+1 anastrozole
+1 anesthetics
+1 anidulafungin
+1 anileridine
+1 anisindione
+1 anti-arrhythmic
+1 antiarrhythmics
+1 antibiotics
+1 anticoagulant
+1 antidepressants
+1 antidiabetic
+1 antihypertensive
+1 antithrombin 3
+1 asparaginase
+1 atropine sulfate
+1 auranofin
+1 barbiturates
+1 benazepril
+1 benzocaine
+1 benzodiazepines
+1 benzyl alcohol
+1 beta blockers
+1 beta-adrenergic blocking agents
+1 beta-interferon
+1 bethanechol
+1 bishydroxy-coumarin
+1 bivalirudin
+1 bleomycin
+1 boric acid
+1 bortezomib
+1 bromocriptine
+1 buspirone hydrochloride
+1 butalbital
+1 butenafine hcl
+1 cabergoline
+1 calcium acetate
+1 calcium carbonate
+1 candesartan
+1 candesartan cilexetil
+1 carbachol
+1 carbamazepine 10, 11 epoxide
+1 carbamazepine 10,11-epoxide
+1 carbenicillin indanyl sodium
+1 cardiotrast
+1 carmustine
+1 caspofungin acetate
+1 cefamandole
+1 cefditoren
+1 cefmenoxime
+1 cefoperazone
+1 cefotaxime sodium
+1 cefuroxime
+1 cerivastatin
+1 charcoal
+1 chlorothiazide
+1 chlorpheniramine
+1 chlortetracycline
+1 cholestryramine
+1 choline salicylate
+1 ciclosporin
+1 cimetidine 400 mg
+1 cis-platinum
+1 clobazam
+1 clofazimine
+1 clomiphene citrate
+1 clomipramine
+1 clorazepate dipotassium
+1 clotrimazole
+1 conivaptan
+1 conjugated estrogens
+1 corticosteroid
+1 corticotropin
+1 cycloserine
+1 dalfopristin
+1 dantrolene
+1 darifenacin
+1 debrisoquin
+1 denileukin diftitox
+1 desethyloxybutynin
+1 desipramine hydrochloride
+1 desmethylastermizole
+1 dextromethorphan hydrobromide
+1 dextropropoxyphene
+1 dextrose
+1 dezocine
+1 diethylstilbestrol
+1 dihydrotachysterol
+1 diphenoxylate
+1 diphenoxylate hydrochloride
+1 diuretic
+1 dofetillide
+1 dolasetron mesylate
+1 dornase alfa
+1 doxorubicin hcl
+1 doxorubicin hcl
+1 droperidol
+1 drug
+1 edetate calcium disodium
+1 egg
+1 encainide
+1 enhancers
+1 enoxacin
+1 enoximone
+1 ergocalciferol
+1 ergonovine
+1 ergot
+1 erythromycins
+1 erythropoietin
+1 esmolol hcl
+1 ethinamate
+1 ethionamide
+1 ethoxzolamide
+1 etidronate
+1 famciclovir
+1 fenbufen
+1 fluorouracil
+1 fluoxetine hydrochloride
+1 flupenthixol
+1 fluphenazine
+1 flutamide
+1 frovatriptan
+1 ginkgo
+1 ginseng
+1 glutamic acid hcl
+1 glyceryl trinitrate
+1 glycopyrrolate
+1 gold
+1 green tea gallocatechins
+1 grepafloxacin
+1 guafacine
+1 guanadrel
+1 histamine
+1 hydrochloroquine
+1 hydroxychloroquine
+1 hydroxychloroquine sulfate
+1 hydroxylamine
+1 hydroxyurea
+1 icodextrin
+1 imiglucerase
+1 imipramine hcl
+1 imipramine hydrochloride
+1 inactivated nd vaccine
+1 inactivated nd vaccines
+1 infliximab
+1 intraconazole
+1 isoniazide
+1 isosorbide dinitrate
+1 isosorbide mononitrate
+1 kanamycin
+1 ketoprofen
+1 latamoxef
+1 latanoprost
+1 leflunomide
+1 letrozole
+1 levamisole
+1 levamisole hydrochloride
+1 lithium carbonate
+1 loperamide
+1 lopinavir
+1 magnesium hydroxides
+1 magnesium salicylate
+1 magnesium-aluminum hydroxide
+1 magnesium/choline salicylate
+1 mannitol
+1 mazindol
+1 mechlorethamine
+1 meclizine
+1 mefloquine
+1 mesalamine
+1 mesalazine
+1 metaproterenol sulfate
+1 methdilazine
+1 methylergonovine maleate
+1 methyprylon
+1 metrizamide
+1 micafungin
+1 miconazole nitrate
+1 mineral oil
+1 modafinil
+1 multivalent cations
+1 mycophenolate
+1 n-dodecyl gallate
+1 nafarelin acetate
+1 neostigmine
+1 netilmicin
+1 neuroleptic
+1 niacinamide
+1 nicotinamide
+1 nitroferricyanide
+1 nondepolarizing agents
+1 norfloxacin
+1 norgestrel
+1 nortriptyline hydrochloride
+1 octreotide
+1 olsalazine
+1 organophosphate insecticide
+1 oxacillin
+1 oxaprozin
+1 oxazepam
+1 oxybutynin chloride
+1 oxymetazoline
+1 oxymorphone
+1 oxytetracycline
+1 palytoxin
+1 pancreatin
+1 papaverine
+1 para-aminosalicylic acid
+1 paracetamol
+1 pargyline
+1 pectin
+1 pegylated interferon alfa-2a
+1 penicillamine
+1 penicillin g
+1 penicillins
+1 pentamidine
+1 pentostatin
+1 phenelzine sulfate
+1 phenobarbitone
+1 phentermine hydrochloride
+1 phenylpropanolamine
+1 phenytoins
+1 physostigmine
+1 pindolol
+1 pioglitazone
+1 praziquantel
+1 prilocaine
+1 prochlorperazine
+1 progesterone
+1 promoter
+1 propanolol
+1 propoxyphene hydrochloride
+1 protamine
+1 protriptyline
+1 pyrantel
+1 pyrilamine
+1 quinupristin
+1 rantidine hydrochloride
+1 resorcinol
+1 rifamycin
+1 rifapentine
+1 rivastigmine tartrate
+1 rocuronium bromide
+1 salbutamol
+1 salsalate
+1 selegiline hydrochloride
+1 sildenafil citrate
+1 sodium acid phosphate
+1 sodium colistemethate
+1 sodium fluorescein
+1 sodium salicylate
+1 sodium thiosulfate
+1 sodium valproate
+1 somatropin
+1 sparfloxacin
+1 streptokinase
+1 streptomycin
+1 succinylcholine chloride
+1 sulfadoxine
+1 sulfamethizole
+1 sulfisoxazole
+1 sulfonylurea
+1 sulfur
+1 sulphasalazine
+1 sulphenazole
+1 surfactant
+1 suxamethonium chloride
+1 sympathomimetic
+1 tacrine
+1 tannic acid
+1 tazobactam
+1 temozolomide
+1 tenofovir
+1 terbutaline
+1 testosterone
+1 tetrahydrocannabinol
+1 theophyllines
+1 thioguanine
+1 thiothixene
+1 thyroid
+1 thyroxin
+1 thyroxine
+1 ticlopidine
+1 tigecycline
+1 timolol
+1 tizoxanide
+1 tolazoline
+1 toxin
+1 tranexamic acid
+1 tranylcypromine sulfate
+1 trazodone
+1 trazodone hydrochloride
+1 triacetyloleandomycin
+1 tricyclic antidepressant
+1 trihexyphenidyl
+1 triprolidine
+1 unfractionated heparin
+1 urea
+1 vaccine
+1 vanillylmandelic acid
+1 verapamil hydrochloride
+1 veratrum alkaloids
+1 verografin
+1 viomycin
+1 vitamin e
+1 ziprasidone
+1 zonisamide
+2 25-o-desacetylrifabutin
+2 4-hydroxytolbutamide
+2 99mtc-mdp
+2 adenosine
+2 alosetron
+2 amiodarone
+2 atorvastatin
+2 atracurium
+2 auranofin
+2 cgs 21680
+2 cholestyramine
+2 calcidiol
+2 calcitriol
+2 captopril
+2 celecoxib
+2 chloral hydrate
+2 chloramphenicol
+2 chlorpromazine
+2 chlorpropamide
+2 cisplatin
+2 citalopram
+2 colestipol
+2 cyclophosphamide
+2 cyclosporin
+2 cysteine
+2 desloratadine
+2 desmopressin
+2 dexbrompheniramine
+2 dicumarol
+2 diflunisal
+2 diphenhydramine
+2 dipyridamole
+2 dolasetron
+2 efavirenz
+2 enflurane
+2 estazolam
+2 eszopiclone
+2 ethinyl estradiol
+2 ethopropazine
+2 ethyl alcohol
+2 etodolac
+2 ezetimibe
+2 fentanyl
+2 fexofenadine
+2 finasteride
+2 folic acid
+2 gemfibrozil
+2 glucose
+2 glyburide
+2 hyaluronidase
+2 hydrocodone
+2 hydrocortisone
+2 interferon beta
+2 iron
+2 ketamine
+2 ketorolac
+2 l-histidine
+2 leucovorin
+2 levodopa
+2 lomefloxacin
+2 loperamide
+2 lopinavir
+2 lorazepam
+2 meclofenamate sodium
+2 methenamine
+2 metolazone
+2 midazolam
+2 moxifloxacin
+2 n-desmethyldiazepam
+2 nph human insulin
+2 niacin
+2 nimodipine
+2 norethindrone
+2 oxc
+2 orlistat
+2 oxcarbazepine
+2 plendil
+2 phospholine iodide
+2 physostigmine
+2 pilocarpine
+2 primidone
+2 propoxyphene
+2 quinidine
+2 rifampicin
+2 s(-) warfarin
+2 scopolamine
+2 sildenafil
+2 stavudine
+2 tamoxifen
+2 tetracycline
+2 trimethoprim
+2 triprolidine
+2 vitamin d2
+2 vitamin e
+2 acebutolol
+2 acenocoumarol
+2 acetazolamide
+2 acyclovir
+2 adrenaline
+2 alefacept
+2 alendronate
+2 alfentanil
+2 amphetamines
+2 bezafibrate
+2 bishydroxycoumarin
+2 bismuth subsalicylate
+2 bitolterol
+2 bromelains
+2 carbenicillin
+2 cefotetan
+2 cephalothin
+2 chymotrypsin
+2 cinchophen
+2 codeine
+2 cyclopropane
+2 dapsone
+2 dexrazoxane
+2 dextromethorphan
+2 dextrothyroxine
+2 digitoxin
+2 diphenylhydantoin
+2 divalproex sodium
+2 doxylamine
+2 dyphylline
+2 edrophonium
+2 enfuvirtide
+2 ethyl alcohol
+2 ethynyl estradiol
+2 etoposide
+2 etretinate
+2 exemestane
+2 felbamate
+2 ferrous gluconate
+2 fondaparinux
+2 foscarnet
+2 furazolidone
+2 galangin
+2 glatiramer acetate
+2 glibenclamide
+2 glucagon
+2 granisetron
+2 halofantrine
+2 hydroxyzine
+2 inactivated ai vaccines
+2 interferon beta-1a
+2 ipratropium
+2 kaolin
+2 levorphanol
+2 levothyroxine
+2 levothyroxine sodium
+2 lisinopril
+2 loracarbef
+2 losartan
+2 lymecycline
+2 mebendazole
+2 medroxyprogesterone acetate
+2 melphalan
+2 meprobamate
+2 metaraminol
+2 methenamine
+2 methicillin
+2 methoxyflurane
+2 methylergonovine
+2 milrinone
+2 mycophenolate mofetil
+2 nabumetone
+2 nadolol
+2 nalbuphine
+2 naltrexone
+2 naproxen sodium
+2 nateglinide
+2 nitazoxanide
+2 noradrenaline
+2 norethindrone acetate
+2 orphenadrine
+2 oxipurinol
+2 oxolinic acid
+2 oxygen
+2 pancuronium
+2 paraldehyde
+2 peginterferon
+2 penciclovir
+2 pentobarbital
+2 pentoxifylline
+2 pergolide mesylate
+2 pertechnetate
+2 phenprocoumon
+2 phentolamine
+2 phenytoin sodium
+2 phosphate
+2 pilocarpine
+2 polymyxin b
+2 procaine
+2 procarbazine
+2 progestin
+2 prostaglandin f2alpha
+2 raloxifene
+2 ramipril
+2 simethicone
+2 sodium colistimethate
+2 sodium nitroprusside
+2 somatostatin
+2 streptozocin
+2 sumatriptan succinate
+2 temazepam
+2 tenofovir disoproxil fumarate
+2 thiabendazole
+2 tobramycin
+2 tolmetin
+2 tolterodine
+2 triclofos sodium
+2 trovafloxacin
+2 vigabatrin
+2 vinorelbine
+2 zinc insulin
+2 zopiclone
+3 4-methylpyrazole
+3 5-fu
+3 5-fluorouracil
+3 abciximab
+3 aliskiren
+3 alprazolam
+3 aminoglutethimide
+3 antipyrine
+3 bretylium tosylate
+3 cci-779
+3 cyp2c9
+3 calcium
+3 chlorthalidone
+3 dtic
+3 dasatinib
+3 diazepam
+3 didanosine
+3 ephedrine
+3 ergotamine
+3 fluconazole
+3 flupenthixol
+3 fondaparinux
+3 gabapentin
+3 gentamicin
+3 haloperidol
+3 hydrochlorothiazide
+3 ibuprofen
+3 imipramine
+3 isoflurane
+3 lansoprazole
+3 levetiracetam
+3 lovastatin
+3 metformin
+3 methyldopa
+3 mitotane
+3 nelfinavir
+3 nicotine
+3 pindolol
+3 potassium
+3 propranolol
+3 r-warfarin
+3 ranitidine
+3 s-warfarin
+3 spermine
+3 sucralfate
+3 thalidomide
+3 tolbutamide
+3 triazolam
+3 vitamin d3
+3 zidovudine
+3 acamprosate
+3 aminosalicylic acid
+3 amoxicillin
+3 apraclonidine
+3 atazanavir
+3 atovaquone
+3 carbidopa
+3 cefoxitin
+3 chlorthalidone
+3 cilostazol
+3 cyclosporin
+3 cyclosporine a
+3 danazol
+3 dantrolene sodium
+3 diphenidol
+3 dofetilide
+3 dolasetron
+3 doxapram
+3 drugs
+3 enalapril
+3 entecavir
+3 ethinylestradiol
+3 ferrous sulfate
+3 fluvoxamine maleate
+3 fondaparinux sodium
+3 ganciclovir
+3 gefitinib
+3 gemifloxacin
+3 glimepiride
+3 heroin
+3 hexobarbital
+3 ibutilide
+3 idoxuridine
+3 interferon-alfa
+3 isocarboxazid
+3 isoflurane
+3 isoproterenol
+3 ketorolac tromethamine
+3 lactulose
+3 lincomycin
+3 linezolid
+3 mecamylamine
+3 methsuximide
+3 metolazone
+3 moclobemide
+3 niacin
+3 nilutamide
+3 nitroprusside
+3 oxandrolone
+3 oxybutynin
+3 paricalcitol
+3 perindoprilat
+3 phenobarbital sodium
+3 piperazine
+3 potassium chloride
+3 pralidoxime
+3 propantheline
+3 pyridoxine
+3 radiopertechnetate
+3 riboflavin
+3 scopolamine
+3 secobarbital
+3 solifenacin
+3 sulindac
+3 tamsulosin
+3 topiramate
+3 tranylcypromine
+3 verografine
+3 vinblastine
+3 vitamin c
+3 zileuton
+4 azithromycin
+4 bepridil
+4 cmi
+4 cyp3a4
+4 calcitonin (salmon)
+4 clonazepam
+4 diltiazem
+4 epinephrine
+4 everolimus
+4 heparin
+4 indinavir
+4 indomethacin
+4 insulin
+4 mephenytoin
+4 methadone
+4 nifedipine
+4 pgf2alpha
+4 ribavirin
+4 rofecoxib
+4 saquinavir
+4 streptokinase
+4 sumatriptan
+4 terbinafine
+4 tiagabine
+4 verapamil
+4 abacavir
+4 aminophylline
+4 amitriptyline hcl
+4 anticholinergic
+4 bromocriptine mesylate
+4 buspirone
+4 buspirone hcl
+4 busulfan
+4 calcitriol
+4 cefazolin
+4 ceftazidime
+4 chloroquine
+4 cinoxacin
+4 clindamycin
+4 colistin
+4 cypermethrin
+4 dacarbazine
+4 decitabine
+4 des-ciclesonide
+4 desloratadine
+4 dextran
+4 diphenhydramine
+4 efavirenz
+4 erlotinib
+4 etanercept
+4 ethchlorvynol
+4 flumazenil
+4 fosinopril
+4 fosinopril sodium
+4 fosphenytoin
+4 glutamate
+4 ibandronate
+4 imexon
+4 interleukin-2
+4 iodamide
+4 irbesartan
+4 lamivudine
+4 lamotrigine
+4 lidocaine
+4 loratadine
+4 magnesium hydroxide
+4 megestrol acetate
+4 melarsoprol
+4 meropenem
+4 metamizol
+4 methaqualone
+4 methysergide
+4 minocycline
+4 moxifloxacin
+4 naratriptan
+4 neomycin
+4 nitrous oxide
+4 phenelzine
+4 pyrimethamine
+4 rivastigmine
+4 rosiglitazone
+4 roxithromycin
+4 salicylic acid
+4 sulfinpyrazone
+4 telithromycin
+4 terazosin
+4 thalidomide
+4 tubocurarine
+4 vecuronium
+4 venlafaxine
+4 vitamin b12
+4 voriconazole
+4 warfarin sodium
+5 acamprosate
+5 allopurinol
+5 anagrelide
+5 cisapride
+5 clarithromycin
+5 dexamethasone
+5 isocarboxazid
+5 naflu
+5 paliperidone
+5 paroxetine
+5 ritonavir
+5 terfenadine
+5 valproate
+5 aluminum hydroxide
+5 amikacin
+5 amiloride
+5 ascorbic acid
+5 caspofungin
+5 cephalexin
+5 chloramphenicol
+5 chlorprothixene
+5 ciclesonide
+5 cysteine
+5 delavirdine
+5 diazoxide
+5 dicumarol
+5 diltiazem hydrochloride
+5 dobutamine
+5 ethacrynic acid
+5 ethambutol
+5 famotidine
+5 glutethimide
+5 hydrocortisone
+5 irinotecan
+5 ketorolac
+5 mefenamic acid
+5 melatonin
+5 nalidixic acid
+5 nitroglycerin
+5 nortriptyline
+5 ofloxacin
+5 oxcarbazepine
+5 paliperidone
+5 prednisone
+5 promethazine
+5 quetiapine
+5 quinine
+5 sodium bicarbonate
+5 sulfasalazine
+5 terbinafine
+5 tramadol
+5 tricyclic antidepressants
+5 trimethoprim
+6 acth
+6 adl 8-2698
+6 bosentan
+6 fluoxetine
+6 insp(3)
+6 isoniazid
+6 lapatinib
+6 magnesium
+6 morphine
+6 olanzapine
+6 rifabutin
+6 amiodarone
+6 apomorphine
+6 baclofen
+6 bepridil hydrochloride
+6 bexarotene
+6 buprenorphine
+6 capecitabine
+6 cefditoren pivoxil
+6 cetirizine
+6 clofibrate
+6 clozapine
+6 colestipol
+6 dideoxyinosine
+6 enflurane
+6 epirubicin
+6 eplerenone
+6 estradiol
+6 fenofibrate
+6 fexofenadine hydrochloride
+6 finasteride
+6 fosfomycin
+6 gemfibrozil
+6 glycine
+6 hydrocodone
+6 lansoprazole
+6 leucovorin
+6 levonorgestrel
+6 lorazepam
+6 meclofenamate sodium
+6 meperidine
+6 mercaptopurine
+6 methylphenidate
+6 nicardipine
+6 nicardipine hcl
+6 nicotinic acid
+6 nimodipine
+6 ouabain
+6 oxycodone
+6 oxyphenbutazone
+6 oxytocin
+6 penicillin
+6 piroxicam
+6 potassium
+6 pseudoephedrine
+6 retinyl acetate
+6 selegiline
+6 stavudine
+6 tamoxifen
+6 teniposide
+6 tetracycline
+6 thiosulfate
+6 tripelennamine
+7 (-)-erythro-fluorocitrate
+7 1,25(oh)2d3
+7 acetaminophen
+7 diclofenac
+7 epa
+7 erythromycin
+7 furosemide
+7 ibandronate
+7 mtx
+7 naproxen
+7 amantadine
+7 bacitracin
+7 chloral hydrate
+7 chlorpromazine
+7 chlorpropamide
+7 cinacalcet
+7 coumaphos
+7 d-amphetamine
+7 darbepoetin
+7 dexfenfluramine
+7 dihydroergotamine mesylate
+7 disopyramide
+7 disulfiram
+7 dopamine hcl
+7 ertapenem
+7 ethosuximide
+7 etodolac
+7 fentanyl
+7 gentamycin
+7 imatinib
+7 lapatinib
+7 levofloxacin
+7 metronidazole
+7 mifepristone
+7 nicotine
+7 pantoprazole
+7 perindopril
+7 propoxyphene
+7 sirolimus
+8 1,3-difluoro-2-propanol
+8 3-[(2-methyl-1,3-thiazol-4-yl) ethynyl] pyridine
+8 ethanol
+8 ptx
+8 adenosine
+8 amitriptyline
+8 amlodipine
+8 atenolol
+8 cyclophosphamide
+8 entacapone
+8 ephedrine
+8 fenoprofen
+8 griseofulvin
+8 lenalidomide
+8 methylprednisolone
+8 mexiletine
+8 nisoldipine
+8 omeprazole
+8 pentazocine
+8 phenylbutazone
+8 pimozide
+8 pravastatin
+8 prednisolone
+8 procaine hydrochloride
+8 sulfamethoxazole
+8 triamterene
+8 troleandomycin
+8 valsartan
+9 methotrexate
+9 nevirapine
+9 phenobarbital
+9 almotriptan
+9 amphetamine
+9 anakinra
+9 antipyrine
+9 celecoxib
+9 chlordiazepoxide
+9 dexmedetomidine
+9 dihydroergotamine
+9 dipyridamole
+9 doxycycline
+9 everolimus
+9 fexofenadine
+9 glucose
+9 guanethidine
+9 hydralazine
+9 imipramine
+9 nefazodone
+9 norethindrone
+9 procainamide
+9 rifampicin
+9 saquinavir
+9 sildenafil
+9 spironolactone
+9 sucralfate
+9 thioridazine
+9 zinc
+10 acarbose
+10 acetazolamide
+10 theophylline
+10 acetylsalicylic acid
+10 aliskiren
+10 azathioprine
+10 budesonide
+10 didanosine
+10 estazolam
+10 eszopiclone
+10 folic acid
+10 glipizide
+10 guanfacine
+10 mirtazapine
+10 naloxone
+10 propafenone
+10 propofol
+10 ribavirin
+10 simvastatin
+11 alcohol
+11 argatroban
+11 mefloquine
+11 rifampin
+11 anagrelide
+11 atracurium
+11 butorphanol
+11 cefdinir
+11 ceftibuten
+11 clonidine
+11 dopamine
+11 ergotamine
+11 fluconazole
+11 miconazole
+11 piperacillin
+11 vancomycin
+12 amprenavir
+12 cyclosporine
+12 acitretin
+12 atropine
+12 bumetanide
+12 doxorubicin
+12 levetiracetam
+12 ondansetron
+12 ranitidine
+13 fluvoxamine
+13 dirithromycin
+13 duloxetine
+13 ethinyl estradiol
+13 gentamicin
+13 halothane
+13 ibuprofen
+13 metoclopramide
+13 metoprolol
+13 rofecoxib
+13 sumatriptan
+14 amphotericin b
+14 aprepitant
+14 clonazepam
+14 epinephrine
+14 magnesium
+14 primidone
+14 reserpine
+14 risperidone
+14 valproic acid
+15 ketamine
+15 methadone
+15 methyldopa
+15 sertraline
+15 triazolam
+16 cholestyramine
+16 aluminum
+16 astemizole
+16 ciprofloxacin
+16 desipramine
+16 fluvastatin
+16 nelfinavir
+16 nevirapine
+17 duloxetine
+17 ampicillin
+17 amprenavir
+17 captopril
+17 cholestyramine
+17 glyburide
+17 hydrochlorothiazide
+17 valproate
+17 vardenafil
+18 bupropion
+18 calcium
+18 diclofenac
+18 levodopa
+19 lithium
+19 dexamethasone
+19 flecainide
+19 iron
+19 metformin
+19 olanzapine
+19 paclitaxel
+20 carbamazepine
+20 probenecid
+20 alosetron
+20 dasatinib
+20 rifabutin
+21 escitalopram
+21 felodipine
+21 haloperidol
+21 indinavir
+21 naproxen
+21 zidovudine
+22 cimetidine
+22 itraconazole
+22 bosentan
+22 caffeine
+22 cocaine
+22 lomefloxacin
+22 verapamil
+23 azithromycin
+23 cisplatin
+23 lovastatin
+23 paroxetine
+23 tiagabine
+24 digoxin
+24 warfarin
+24 ezetimibe
+24 indomethacin
+24 norepinephrine
+24 zaleplon
+25 phenytoin
+25 atorvastatin
+25 cisapride
+25 citalopram
+25 clarithromycin
+25 furosemide
+25 tacrolimus
+26 gabapentin
+26 heparin
+26 isoniazid
+26 ritonavir
+27 succinylcholine
+28 acetaminophen
+28 diflunisal
+29 ethanol
+30 diazepam
+30 midazolam
+30 terfenadine
+31 alprazolam
+31 nifedipine
+31 tolbutamide
+32 ketoconazole
+32 quinidine
+33 allopurinol
+34 vardenafil
+34 diltiazem
+34 itraconazole
+34 probenecid
+36 propranolol
+38 insulin
+40 fluvoxamine
+42 aprepitant
+45 morphine
+46 phenobarbital
+48 fluoxetine
+54 methotrexate
+57 erythromycin
+57 rifampin
+69 carbamazepine
+70 cimetidine
+70 cyclosporine
+90 alcohol
+91 ketoconazole
+94 lithium
+99 theophylline
+141 phenytoin
+145 digoxin
+167 warfarin

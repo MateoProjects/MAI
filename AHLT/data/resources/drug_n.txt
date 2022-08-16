@@ -1,0 +1,182 @@
+      1 (2-adamantyl)hexamethylenimine
+      1 1-methyl-4-phenyl-1,2,3,4-tetrahydropyridine
+      1 18-Methoxycoronaridine
+      1 25-O-desacetyl metabolites
+      1 3-hydroxydesloratadine
+      1 4-hydroxy-estazolam
+      1 4-hydroxytamoxifen
+      1 5-DFCR
+      1 5-DFUR
+      1 5-FU
+      1 5-oxo-desethylzaleplon
+      1 5-oxo-desethylzaleplon glucuronide
+      1 6-beta-naltrexol
+      1 6-deoxy penciclovir
+      1 8-cyclopentyl-1,3-dipropylxanthine
+      1 8-phenyltheophylline
+      1 Arecoline
+      1 Benzyl alcohol
+      1 Bombesin
+      1 CGS 21680
+      1 CGS21680
+      1 D-Ala2-metenkephalinamide
+      1 Diethyl pyrocarbonate
+      1 Echistatin
+      1 FBAL
+      1 Flavoridin
+      1 Ganoderma lucidum extract
+      1 Gliftor
+      1 Hyaluronan lyase
+      1 Indocyanine green
+      1 John's Wort
+      1 L-NAME
+      1 Mineral Oil
+      1 N6-cyclopentyladenosine
+      1 PABA
+      1 Palytoxin
+      1 Paricalcitol
+      1 Phencyclidine
+      1 Thiolated carboxymethylcellulose
+      1 Type II pyrethroid
+      1 adeno-associated virus-2
+      1 alcohols
+      1 bentoquatam
+      1 benzoxazinorifamycin
+      1 benzyl alcohol
+      1 carbamate insecticides
+      1 carbamazepine 10, 11 epoxide
+      1 carboxymethylcellulose-cysteine
+      1 copper sulfate
+      1 descarboethoxyloratadine
+      1 desethyloxybutynin
+      1 desmethylastemizole
+      1 desmethylastermizole
+      1 desmethyldiazepam
+      1 doxorubicinol
+      1 erythrohydrobupropion
+      1 ethoxycoumarin
+      1 gliftor
+      1 hyaluronan lyase
+      1 hydroxyitraconazole
+      1 hydroxylamine
+      1 hydroxylated fenoprofen
+      1 imexon
+      1 inositol 1,4,5-trisphosphate
+      1 lead
+      1 methanol
+      1 mineral oil
+      1 norbuprenorphine
+      1 norfluoxetine
+      1 nortriptyline
+      1 olprinone
+      1 omega-agatoxin VIA
+      1 organophosphate insecticide
+      1 palytoxin
+      1 para-aminobenzoic acid
+      1 paraxanthine
+      1 phenyltoloxamine
+      1 phosphate
+      1 phosphorous insecticides
+      1 putrescine
+      1 pyreneperone
+      1 reseveratrol
+      1 sodium carboxymethylcellulose
+      1 sodium dodecyl sulfate
+      1 thimerosal
+      1 trimethyl lead
+      1 tyramine
+      1 vanillin
+      1 vanillylmandelic acid
+      2 16,16-dimethylprostaglandin E2
+      2 25-O-desacetylrifabutin
+      2 3-Hydroxydesloratadine
+      2 4-hydroxytolbutamide
+      2 AOM
+      2 CPA
+      2 Clostridium difficile toxin A
+      2 DPCPX
+      2 Jacalin
+      2 N-allylnormetazocine
+      2 N-desmethyldiazepam
+      2 N-methyllevallorphan
+      2 Resveratrol
+      2 SN38
+      2 TML
+      2 VMA
+      2 azoxymethane
+      2 carboxytolbutamide
+      2 cerulein
+      2 collagenase
+      2 echistatin
+      2 endoxifen
+      2 flavoridin
+      2 ginseng stem-and-leaf saponins
+      2 omega-agatoxin IVA
+      2 phenyramidol
+      2 ruthenium red
+      2 sodium perchlorate
+      2 spermidine
+      2 threohydrobupropion
+      2 transferrin
+      3 6MNA
+      3 CMC-Cys
+      3 Ibogaine
+      3 MPTP
+      3 NANM
+      3 acetaldehyde
+      3 diethyl pyrocarbonate
+      3 enkephalins
+      3 fenofibric acid
+      3 fosinoprilat
+      3 hemantane
+      3 heroin
+      3 hydroxybupropion
+      3 jacalin
+      3 omega-conotoxin GVIA
+      3 perchlorate
+      3 perindoprilat
+      3 trichlorfon
+      4 AAV2
+      4 DCG-IV
+      4 L-CCG-1
+      4 TAM
+      4 chondroitin ABC lyase
+      4 heparinase III
+      4 phencyclidine
+      4 tuftsin
+      5 3H-spiroperidol
+      5 GL
+      5 KRM-1648
+      5 arsenate
+      5 bombesin
+      5 filipin
+      5 hydrodolasetron
+      5 iron
+      5 neurotensin
+      6 EGF
+      6 GSLS
+      6 InsP(3)
+      6 methylglyoxal
+      6 resveratrol
+      7 (+)-NANM
+      7 (-)-erythro-fluorocitrate
+      7 RR
+      7 contortrostatin
+      7 coumaphos
+      8 (-)-NANM
+      8 1,3-difluoro-2-propanol
+      8 1,3-difluoroacetone
+      8 3-[(2-methyl-1,3-thiazol-4-yl) ethynyl] pyridine
+      8 As(V)
+      8 NaCMC
+      8 PTX
+      8 ginsenosides
+      9 beta-endorphin
+      9 toxin A
+     10 dmPGE2
+     11 endotoxin
+     12 MHD
+     13 1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine
+     14 ibogaine
+     16 18-MC
+     22 PCP
