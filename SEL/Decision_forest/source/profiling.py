@@ -1,7 +1,7 @@
 from pandas_profiling import ProfileReport
 import pandas as pd
 
-df = pd.read_csv("./data/balance.csv", header=None)
+df = pd.read_csv("DESK.csv")
 profile = ProfileReport(df, title="balance Profiling Report")
-profile.to_file("./doc/balance.html")
+profile.to_file("balance.html")
 
