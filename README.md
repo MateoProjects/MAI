@@ -20,7 +20,8 @@ All content about MAI
   * SEL - UPC: **8.40**
   
  **Coursed on 2022-2023 Q1**:
-  * AHCT - UPC
-  * CIR - UPC
-  * DLMIA - UB
-  * IDSS - UPC
+  * AHCT - UPC: **9.00**
+  * CIR - UPC: **9.00**
+  * DLMIA - UB: **8.80**
+  * IDSS - UPC: **8.30**
+
